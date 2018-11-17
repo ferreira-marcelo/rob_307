@@ -1,0 +1,139 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat Nov 17 18:21:17 2018
+# Process ID: 20625
+# Current directory: /home/fabian/Documents/ensta/deuxieme/rob307/rob_307/hardware_model/hw_arm_microblaze/hw_arm_microblaze.runs/microblaze_arm_dlmb_v10_5_synth_1
+# Command line: vivado -log microblaze_arm_dlmb_v10_5.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source microblaze_arm_dlmb_v10_5.tcl
+# Log file: /home/fabian/Documents/ensta/deuxieme/rob307/rob_307/hardware_model/hw_arm_microblaze/hw_arm_microblaze.runs/microblaze_arm_dlmb_v10_5_synth_1/microblaze_arm_dlmb_v10_5.vds
+# Journal file: /home/fabian/Documents/ensta/deuxieme/rob307/rob_307/hardware_model/hw_arm_microblaze/hw_arm_microblaze.runs/microblaze_arm_dlmb_v10_5_synth_1/vivado.jou
+#-----------------------------------------------------------
+source microblaze_arm_dlmb_v10_5.tcl -notrace
+Command: synth_design -top microblaze_arm_dlmb_v10_5 -part xc7z020clg484-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 20759 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1291.801 ; gain = 81.719 ; free physical = 2583 ; free virtual = 3436
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'microblaze_arm_dlmb_v10_5' [/home/fabian/Documents/ensta/deuxieme/rob307/rob_307/hardware_model/hw_arm_microblaze/hw_arm_microblaze.srcs/sources_1/bd/microblaze_arm/ip/microblaze_arm_dlmb_v10_5/synth/microblaze_arm_dlmb_v10_5.vhd:89]
+	Parameter C_LMB_NUM_SLAVES bound to: 1 - type: integer 
+	Parameter C_LMB_DWIDTH bound to: 32 - type: integer 
+	Parameter C_LMB_AWIDTH bound to: 32 - type: integer 
+	Parameter C_EXT_RESET_HIGH bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'lmb_v10' declared at '/home/fabian/Documents/ensta/deuxieme/rob307/rob_307/hardware_model/hw_arm_microblaze/hw_arm_microblaze.srcs/sources_1/bd/microblaze_arm/ipshared/78eb/hdl/lmb_v10_v3_0_vh_rfs.vhd:92' bound to instance 'U0' of component 'lmb_v10' [/home/fabian/Documents/ensta/deuxieme/rob307/rob_307/hardware_model/hw_arm_microblaze/hw_arm_microblaze.srcs/sources_1/bd/microblaze_arm/ip/microblaze_arm_dlmb_v10_5/synth/microblaze_arm_dlmb_v10_5.vhd:164]
+INFO: [Synth 8-638] synthesizing module 'lmb_v10' [/home/fabian/Documents/ensta/deuxieme/rob307/rob_307/hardware_model/hw_arm_microblaze/hw_arm_microblaze.srcs/sources_1/bd/microblaze_arm/ipshared/78eb/hdl/lmb_v10_v3_0_vh_rfs.vhd:140]
+	Parameter C_LMB_NUM_SLAVES bound to: 1 - type: integer 
+	Parameter C_LMB_DWIDTH bound to: 32 - type: integer 
+	Parameter C_LMB_AWIDTH bound to: 32 - type: integer 
+	Parameter C_EXT_RESET_HIGH bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'FDS' declared at '/opt/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:4089' bound to instance 'POR_FF_I' of component 'FDS' [/home/fabian/Documents/ensta/deuxieme/rob307/rob_307/hardware_model/hw_arm_microblaze/hw_arm_microblaze.srcs/sources_1/bd/microblaze_arm/ipshared/78eb/hdl/lmb_v10_v3_0_vh_rfs.vhd:169]
+INFO: [Synth 8-6157] synthesizing module 'FDS' [/opt/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:4089]
+	Parameter INIT bound to: 1'b1 
+INFO: [Synth 8-6155] done synthesizing module 'FDS' (1#1) [/opt/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:4089]
+INFO: [Synth 8-256] done synthesizing module 'lmb_v10' (2#1) [/home/fabian/Documents/ensta/deuxieme/rob307/rob_307/hardware_model/hw_arm_microblaze/hw_arm_microblaze.srcs/sources_1/bd/microblaze_arm/ipshared/78eb/hdl/lmb_v10_v3_0_vh_rfs.vhd:140]
+INFO: [Synth 8-256] done synthesizing module 'microblaze_arm_dlmb_v10_5' (3#1) [/home/fabian/Documents/ensta/deuxieme/rob307/rob_307/hardware_model/hw_arm_microblaze/hw_arm_microblaze.srcs/sources_1/bd/microblaze_arm/ip/microblaze_arm_dlmb_v10_5/synth/microblaze_arm_dlmb_v10_5.vhd:89]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1336.426 ; gain = 126.344 ; free physical = 2537 ; free virtual = 3404
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1336.426 ; gain = 126.344 ; free physical = 2610 ; free virtual = 3479
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1336.426 ; gain = 126.344 ; free physical = 2610 ; free virtual = 3479
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/fabian/Documents/ensta/deuxieme/rob307/rob_307/hardware_model/hw_arm_microblaze/hw_arm_microblaze.srcs/sources_1/bd/microblaze_arm/ip/microblaze_arm_dlmb_v10_5/microblaze_arm_dlmb_v10_5_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/fabian/Documents/ensta/deuxieme/rob307/rob_307/hardware_model/hw_arm_microblaze/hw_arm_microblaze.srcs/sources_1/bd/microblaze_arm/ip/microblaze_arm_dlmb_v10_5/microblaze_arm_dlmb_v10_5_ooc.xdc] for cell 'U0'
+Parsing XDC File [/home/fabian/Documents/ensta/deuxieme/rob307/rob_307/hardware_model/hw_arm_microblaze/hw_arm_microblaze.srcs/sources_1/bd/microblaze_arm/ip/microblaze_arm_dlmb_v10_5/microblaze_arm_dlmb_v10_5.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/fabian/Documents/ensta/deuxieme/rob307/rob_307/hardware_model/hw_arm_microblaze/hw_arm_microblaze.srcs/sources_1/bd/microblaze_arm/ip/microblaze_arm_dlmb_v10_5/microblaze_arm_dlmb_v10_5.xdc] for cell 'U0'
+Parsing XDC File [/home/fabian/Documents/ensta/deuxieme/rob307/rob_307/hardware_model/hw_arm_microblaze/hw_arm_microblaze.runs/microblaze_arm_dlmb_v10_5_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/fabian/Documents/ensta/deuxieme/rob307/rob_307/hardware_model/hw_arm_microblaze/hw_arm_microblaze.runs/microblaze_arm_dlmb_v10_5_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  FDS => FDSE: 1 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.03 . Memory (MB): peak = 1628.449 ; gain = 0.000 ; free physical = 1706 ; free virtual = 2652
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:17 ; elapsed = 00:00:36 . Memory (MB): peak = 1628.449 ; gain = 418.367 ; free physical = 2036 ; free virtual = 2964
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:17 ; elapsed = 00:00:36 . Memory (MB): peak = 1628.449 ; gain = 418.367 ; free physical = 2036 ; free virtual = 2964
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for U0. (constraint file  /home/fabian/Documents/ensta/deuxieme/rob307/rob_307/hardware_model/hw_arm_microblaze/hw_arm_microblaze.runs/microblaze_arm_dlmb_v10_5_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:37 . Memory (MB): peak = 1628.449 ; gain = 418.367 ; free physical = 2037 ; free virtual = 2965
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:37 . Memory (MB): peak = 1628.449 ; gain = 418.367 ; free physical = 2029 ; free virtual = 2957
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:37 . Memory (MB): peak = 1628.449 ; gain = 418.367 ; free physical = 2041 ; free virtual = 2974
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
