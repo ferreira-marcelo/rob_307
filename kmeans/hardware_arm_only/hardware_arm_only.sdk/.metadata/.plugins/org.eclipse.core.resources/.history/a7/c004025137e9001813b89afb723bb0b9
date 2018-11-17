@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include "ff.h" // right click in the bsp project, settings, add the ff library !!!!!!!
+#include "xparameters.h"
+#include "xil_printf.h"
+#include "xil_io.h"
+
+
+#define CHUNK 16384
+
+
+void kmeans();
+void read_dataset(float** data_set);
+void show_dataset(float** data_set, int row);

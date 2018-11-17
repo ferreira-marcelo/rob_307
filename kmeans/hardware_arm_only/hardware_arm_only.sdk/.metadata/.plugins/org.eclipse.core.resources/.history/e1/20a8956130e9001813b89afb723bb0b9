@@ -1,0 +1,2 @@
+void kmeans();
+void read_dataset(float** data_set);

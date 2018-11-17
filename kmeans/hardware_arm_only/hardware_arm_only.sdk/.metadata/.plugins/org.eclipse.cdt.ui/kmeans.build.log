@@ -1,0 +1,40 @@
+14:50:29 **** Auto Build of configuration Debug for project kmeans ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/kmeans.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/kmeans.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../kmeans_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/kmeans.d" -MT"src/kmeans.o" -o "src/kmeans.o" "../src/kmeans.c"
+../src/kmeans.c: In function 'read_dataset':
+../src/kmeans.c:90:31: warning: pointer targets in passing argument 4 of 'f_read' differ in signedness [-Wpointer-sign]
+  f_read(&file_in, buf, CHUNK, &n_read);
+                               ^
+In file included from ../src/kmeans.h:4:0,
+                 from ../src/kmeans.c:1:
+../../kmeans_bsp/ps7_cortexa9_0/include/ff.h:223:9: note: expected 'UINT * {aka unsigned int *}' but argument is of type 'int *'
+ FRESULT f_read (FIL* fp, void* buff, UINT btr, UINT* br);   /* Read data from a file */
+         ^~~~~~
+../src/kmeans.c:120:35: warning: pointer targets in passing argument 4 of 'f_read' differ in signedness [-Wpointer-sign]
+      f_read(&file_in, buf, CHUNK, &n_read);
+                                   ^
+In file included from ../src/kmeans.h:4:0,
+                 from ../src/kmeans.c:1:
+../../kmeans_bsp/ps7_cortexa9_0/include/ff.h:223:9: note: expected 'UINT * {aka unsigned int *}' but argument is of type 'int *'
+ FRESULT f_read (FIL* fp, void* buff, UINT btr, UINT* br);   /* Read data from a file */
+         ^~~~~~
+Finished building: ../src/kmeans.c
+ 
+Building target: kmeans.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../kmeans_bsp/ps7_cortexa9_0/lib -o "kmeans.elf"  ./src/kmeans.o ./src/timer_c.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: kmeans.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size kmeans.elf  |tee "kmeans.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 111104	   2676	20429888	20543668	13978b4	kmeans.elf
+Finished building: kmeans.elf.size
+ 
+
+14:50:30 Build Finished (took 417ms)
+

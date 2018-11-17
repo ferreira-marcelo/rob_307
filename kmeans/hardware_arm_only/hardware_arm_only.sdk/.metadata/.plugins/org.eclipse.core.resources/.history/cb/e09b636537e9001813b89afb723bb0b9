@@ -1,0 +1,129 @@
+#include "kmeans.h"
+
+
+#define N_FEATURES  50
+//const int N_POINTS   = 100000;
+#define N_POINTS 100000
+#define N_CLUSTER 20
+const int N_ITERATION = 100;
+const int N_digits = 8;
+static char FILE_NAME[32] = "testcm.csv";
+static char *Log_File;
+static FATFS  FS_instance;
+static FIL file_in;
+
+float data_set[N_POINTS][N_FEATURES];
+int result[N_POINTS];
+float centroids[N_CLUSTER][N_FEATURES];
+
+void kmeans(){
+
+
+	// ========== variables declaration ============
+
+	for(int i=0; i<N_POINTS; i++){
+			result[i] = 0;
+		}
+
+	int in_index[N_CLUSTER];
+
+	// ============= load data ===============
+	printf("acavoy\n");
+	read_dataset(data_set);
+	printf("read done \n");
+
+
+	// ============= free memory ===================
+
+	free(data_set);
+	free(result);
+	free(centroids);
+}
+
+void read_dataset(float** data_set)
+{
+	FRESULT f_in;
+	Log_File = (char *)FILE_NAME;
+	f_in = f_open(&file_in, Log_File,FA_READ);
+	if (f_in!= FR_OK) {
+		printf("%d \n", f_in);
+		printf("File  INPUT_FILE  not found\n");
+	}
+	printf("File  ok \n");
+
+	int feature = 0;
+	int point = 0;
+	char number[N_digits];
+	int index = 0;
+	static char * buf;
+	buf = (char*) malloc (sizeof(char)*CHUNK);
+	int n_read = 0 ;
+	f_read(&file_in, buf, CHUNK, &n_read);
+    while(n_read>0){
+    	for(int j = 0; j < n_read; j++){
+    		if(buf[j]==','){
+    			data_set[point][feature] = (float)atof(number);
+    	        index = 0;
+    	        if(feature < N_FEATURES-1){
+    	        	feature++;}
+    	        else{
+    	            break;}
+    	        }else{
+    	        	if(buf[j] == (char)0x0a){
+    	        		data_set[point][feature] = (float)atof(number);
+    	        		feature = 0;
+    	        		index = 0;
+    	        		if(point < N_POINTS-1){
+    	        			point++;}
+    	        		else{break;}
+    	           }else{
+    	        	   if(index<N_digits){
+    	        		   number[index] = buf[j];
+    	        		   index++;
+    	        	   }
+    	           }
+    	        }
+    	      }
+    	if(feature > N_FEATURES-1 || point > N_POINTS-1)
+    	{
+    		break;
+    	}else{
+    	f_read(&file_in, buf, CHUNK, &n_read);
+    	}
+    }
+
+	f_close(&file_in);
+	free (buf);
+}
+
+void show_dataset(float** data, int row)
+{
+  for(int i = 0; i <row ; i++){
+    for(int j=0 ; j < N_FEATURES ; j++){
+      printf("%f ,", data[i][j]);
+    }
+    printf("\n");
+  }
+}
+
+int main(){
+
+	printf("hi \n");
+
+	// mount sd card
+
+
+	TCHAR *Path = "0:/";
+	FRESULT  result;
+	result = f_mount(&FS_instance,Path, 0);
+	if (result != FR_OK) {
+		printf("Cannot mount sd\n");
+		return EXIT_FAILURE;
+	}
+	printf("sd card ok \n");
+
+	kmeans();
+
+	return EXIT_SUCCESS;
+
+}
