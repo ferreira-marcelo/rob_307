@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include "ff.h" // right click in the bsp project, settings, add the ff library !!!!!!!
+#include "xparameters.h"
+#include "xil_printf.h"
+#include "xil_io.h"
+#include <math.h>
+#include "xtmrctr.h"
+#include "timer_c.h"
+
+
+#define CHUNK 16384
+#define N_FEATURES  50
+#define N_POINTS 100000
+#define N_CLUSTER 20
+#define N_ITERATION 100
+#define N_digits 8
+
+
+static char FILE_NAME[32] = "testcm.csv";

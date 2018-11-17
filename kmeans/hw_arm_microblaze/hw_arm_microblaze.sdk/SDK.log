@@ -1,0 +1,1286 @@
+20:54:10 INFO  : Registering command handlers for SDK TCF services
+20:54:11 INFO  : Launching XSCT server: xsct -n -interactive /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/temp_xsdb_launch_script.tcl
+20:54:13 INFO  : XSCT server has started successfully.
+20:54:13 INFO  : Successfully done setting XSCT server connection channel  
+20:54:13 INFO  : Successfully done setting SDK workspace  
+20:54:13 INFO  : Processing command line option -hwspec /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper.hdf.
+20:57:09 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248773728" && level==0} -index 1' command is executed.
+20:57:09 INFO  : 'fpga -state' command is executed.
+20:57:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:57:28 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248773728" && level==0} -index 1' command is executed.
+20:57:30 INFO  : FPGA configured successfully with bitstream "/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/download.bit"
+20:57:35 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248773728" && level==0} -index 1' command is executed.
+20:57:35 INFO  : 'fpga -state' command is executed.
+20:57:35 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:57:36 INFO  : Jtag cable 'Digilent Zed 210248773728' is selected.
+20:57:36 INFO  : 'jtag frequency' command is executed.
+20:57:36 INFO  : Sourcing of '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/ps7_init.tcl' is done.
+20:57:36 INFO  : Context for 'APU' is selected.
+20:57:36 INFO  : Hardware design information is loaded from '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/system.hdf'.
+20:57:36 INFO  : 'configparams force-mem-access 1' command is executed.
+20:57:36 INFO  : Context for 'APU' is selected.
+20:57:36 INFO  : 'stop' command is executed.
+20:57:36 INFO  : 'ps7_init' command is executed.
+20:57:36 INFO  : 'ps7_post_config' command is executed.
+20:57:36 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:57:36 INFO  : Context for processor 'microblaze_0' is selected.
+20:57:36 INFO  : Processor reset is completed for 'microblaze_0'.
+20:57:36 INFO  : Context for processor 'microblaze_0' is selected.
+20:57:36 INFO  : The application '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/kmeans/Debug/kmeans.elf' is downloaded to processor 'microblaze_0'.
+20:57:36 INFO  : 'configparams force-mem-access 0' command is executed.
+20:57:36 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 0
+loadhw -hw /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 0
+stop
+ps7_init
+ps7_post_config
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+dow /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/kmeans/Debug/kmeans.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+20:57:36 INFO  : Context for processor 'microblaze_0' is selected.
+20:57:36 INFO  : 'con' command is executed.
+20:57:36 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+con
+----------------End of Script----------------
+
+20:57:36 INFO  : Disconnected from the channel tcfchan#1.
+21:16:22 INFO  : Refreshed build settings on project kmeans
+21:18:10 ERROR : (XSDB Server)Hangup
+
+21:19:06 INFO  : Launching XSCT server: xsct -n -interactive /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/temp_xsdb_launch_script.tcl
+21:19:07 INFO  : XSCT server has started successfully.
+21:19:07 INFO  : Successfully done setting XSCT server connection channel  
+21:19:07 INFO  : Successfully done setting SDK workspace  
+21:19:10 INFO  : Registering command handlers for SDK TCF services
+21:19:10 INFO  : Processing command line option -hwspec /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper.hdf.
+21:19:11 INFO  : Checking for hwspec changes in the project microblaze_arm_wrapper_hw_platform_0.
+21:43:26 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248773728" && level==0} -index 1' command is executed.
+21:43:26 INFO  : 'fpga -state' command is executed.
+21:43:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:43:26 INFO  : Jtag cable 'Digilent Zed 210248773728' is selected.
+21:43:26 INFO  : 'jtag frequency' command is executed.
+21:43:26 INFO  : Sourcing of '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/ps7_init.tcl' is done.
+21:43:26 INFO  : Context for 'APU' is selected.
+21:43:26 INFO  : Hardware design information is loaded from '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/system.hdf'.
+21:43:26 INFO  : 'configparams force-mem-access 1' command is executed.
+21:43:26 INFO  : Context for 'APU' is selected.
+21:43:26 INFO  : 'stop' command is executed.
+21:43:26 INFO  : 'ps7_init' command is executed.
+21:43:26 INFO  : 'ps7_post_config' command is executed.
+21:43:26 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+21:43:26 INFO  : Context for processor 'microblaze_0' is selected.
+21:43:26 INFO  : Processor reset is completed for 'microblaze_0'.
+21:43:26 INFO  : Context for processor 'microblaze_0' is selected.
+21:43:27 INFO  : The application '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/kmeans/Debug/kmeans.elf' is downloaded to processor 'microblaze_0'.
+21:43:27 INFO  : 'configparams force-mem-access 0' command is executed.
+21:43:27 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 0
+loadhw -hw /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 0
+stop
+ps7_init
+ps7_post_config
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+dow /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/kmeans/Debug/kmeans.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+21:43:27 INFO  : Context for processor 'microblaze_0' is selected.
+21:43:27 INFO  : 'con' command is executed.
+21:43:27 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+con
+----------------End of Script----------------
+
+21:43:27 INFO  : Disconnected from the channel tcfchan#1.
+21:44:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248773728" && level==0} -index 1' command is executed.
+21:44:08 INFO  : 'fpga -state' command is executed.
+21:44:08 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:44:08 INFO  : Jtag cable 'Digilent Zed 210248773728' is selected.
+21:44:08 INFO  : 'jtag frequency' command is executed.
+21:44:08 INFO  : Sourcing of '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/ps7_init.tcl' is done.
+21:44:08 INFO  : Context for 'APU' is selected.
+21:44:08 INFO  : Hardware design information is loaded from '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/system.hdf'.
+21:44:08 INFO  : 'configparams force-mem-access 1' command is executed.
+21:44:08 INFO  : Context for 'APU' is selected.
+21:44:08 INFO  : 'stop' command is executed.
+21:44:09 INFO  : 'ps7_init' command is executed.
+21:44:09 INFO  : 'ps7_post_config' command is executed.
+21:44:09 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+21:44:09 INFO  : Context for processor 'microblaze_0' is selected.
+21:44:09 INFO  : Processor reset is completed for 'microblaze_0'.
+21:44:09 INFO  : Context for processor 'microblaze_0' is selected.
+21:44:09 INFO  : The application '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/kmeans/Debug/kmeans.elf' is downloaded to processor 'microblaze_0'.
+21:44:09 INFO  : 'configparams force-mem-access 0' command is executed.
+21:44:09 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 0
+loadhw -hw /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 0
+stop
+ps7_init
+ps7_post_config
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+dow /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/kmeans/Debug/kmeans.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+21:44:09 INFO  : Context for processor 'microblaze_0' is selected.
+21:44:09 INFO  : 'con' command is executed.
+21:44:09 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+con
+----------------End of Script----------------
+
+21:44:09 INFO  : Disconnected from the channel tcfchan#2.
+21:45:38 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248773728" && level==0} -index 1' command is executed.
+21:45:38 INFO  : 'fpga -state' command is executed.
+21:45:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:45:38 INFO  : Jtag cable 'Digilent Zed 210248773728' is selected.
+21:45:38 INFO  : 'jtag frequency' command is executed.
+21:45:38 INFO  : Sourcing of '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/ps7_init.tcl' is done.
+21:45:38 INFO  : Context for 'APU' is selected.
+21:45:38 INFO  : Hardware design information is loaded from '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/system.hdf'.
+21:45:38 INFO  : 'configparams force-mem-access 1' command is executed.
+21:45:38 INFO  : Context for 'APU' is selected.
+21:45:38 INFO  : 'stop' command is executed.
+21:45:38 INFO  : 'ps7_init' command is executed.
+21:45:38 INFO  : 'ps7_post_config' command is executed.
+21:45:38 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+21:45:38 INFO  : Context for processor 'microblaze_0' is selected.
+21:45:38 INFO  : Processor reset is completed for 'microblaze_0'.
+21:45:38 INFO  : Context for processor 'microblaze_0' is selected.
+21:45:38 INFO  : The application '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/kmeans/Debug/kmeans.elf' is downloaded to processor 'microblaze_0'.
+21:45:38 INFO  : 'configparams force-mem-access 0' command is executed.
+21:45:38 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 0
+loadhw -hw /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 0
+stop
+ps7_init
+ps7_post_config
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+dow /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/kmeans/Debug/kmeans.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+21:45:38 INFO  : Context for processor 'microblaze_0' is selected.
+21:45:38 INFO  : 'con' command is executed.
+21:45:38 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+con
+----------------End of Script----------------
+
+21:45:38 INFO  : Disconnected from the channel tcfchan#3.
+21:46:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:46:04 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248773728" && level==0} -index 1' command is executed.
+21:46:06 INFO  : FPGA configured successfully with bitstream "/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/download.bit"
+21:46:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248773728" && level==0} -index 1' command is executed.
+21:46:18 INFO  : 'fpga -state' command is executed.
+21:46:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:46:18 INFO  : Jtag cable 'Digilent Zed 210248773728' is selected.
+21:46:18 INFO  : 'jtag frequency' command is executed.
+21:46:18 INFO  : Sourcing of '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/ps7_init.tcl' is done.
+21:46:18 INFO  : Context for 'APU' is selected.
+21:46:18 INFO  : Hardware design information is loaded from '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/system.hdf'.
+21:46:18 INFO  : 'configparams force-mem-access 1' command is executed.
+21:46:18 INFO  : Context for 'APU' is selected.
+21:46:18 INFO  : 'stop' command is executed.
+21:46:19 INFO  : 'ps7_init' command is executed.
+21:46:19 INFO  : 'ps7_post_config' command is executed.
+21:46:19 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+21:46:19 INFO  : Context for processor 'microblaze_0' is selected.
+21:46:19 INFO  : Processor reset is completed for 'microblaze_0'.
+21:46:19 INFO  : Context for processor 'microblaze_0' is selected.
+21:46:19 INFO  : The application '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/kmeans/Debug/kmeans.elf' is downloaded to processor 'microblaze_0'.
+21:46:19 INFO  : 'configparams force-mem-access 0' command is executed.
+21:46:19 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 0
+loadhw -hw /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 0
+stop
+ps7_init
+ps7_post_config
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+dow /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/kmeans/Debug/kmeans.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+21:46:19 INFO  : Context for processor 'microblaze_0' is selected.
+21:46:19 INFO  : 'con' command is executed.
+21:46:19 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+con
+----------------End of Script----------------
+
+21:46:19 INFO  : Disconnected from the channel tcfchan#4.
+21:47:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:47:03 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248773728" && level==0} -index 1' command is executed.
+21:47:06 INFO  : FPGA configured successfully with bitstream "/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/download.bit"
+21:47:12 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248773728" && level==0} -index 1' command is executed.
+21:47:12 INFO  : 'fpga -state' command is executed.
+21:47:12 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:47:12 INFO  : Jtag cable 'Digilent Zed 210248773728' is selected.
+21:47:12 INFO  : 'jtag frequency' command is executed.
+21:47:12 INFO  : Sourcing of '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/ps7_init.tcl' is done.
+21:47:12 INFO  : Context for 'APU' is selected.
+21:47:12 INFO  : Hardware design information is loaded from '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/system.hdf'.
+21:47:12 INFO  : 'configparams force-mem-access 1' command is executed.
+21:47:12 INFO  : Context for 'APU' is selected.
+21:47:12 INFO  : 'stop' command is executed.
+21:47:13 INFO  : 'ps7_init' command is executed.
+21:47:13 INFO  : 'ps7_post_config' command is executed.
+21:47:13 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+21:47:13 INFO  : Context for processor 'microblaze_0' is selected.
+21:47:13 INFO  : Processor reset is completed for 'microblaze_0'.
+21:47:13 INFO  : Context for processor 'microblaze_0' is selected.
+21:47:13 INFO  : The application '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/kmeans/Debug/kmeans.elf' is downloaded to processor 'microblaze_0'.
+21:47:13 INFO  : 'configparams force-mem-access 0' command is executed.
+21:47:13 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 0
+loadhw -hw /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 0
+stop
+ps7_init
+ps7_post_config
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+dow /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/kmeans/Debug/kmeans.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+21:47:13 INFO  : Context for processor 'microblaze_0' is selected.
+21:47:13 INFO  : 'con' command is executed.
+21:47:13 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+con
+----------------End of Script----------------
+
+21:47:13 INFO  : Disconnected from the channel tcfchan#5.
+21:47:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248773728" && level==0} -index 1' command is executed.
+21:47:33 INFO  : 'fpga -state' command is executed.
+21:47:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:47:33 INFO  : Jtag cable 'Digilent Zed 210248773728' is selected.
+21:47:33 INFO  : 'jtag frequency' command is executed.
+21:47:33 INFO  : Sourcing of '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/ps7_init.tcl' is done.
+21:47:33 INFO  : Context for 'APU' is selected.
+21:47:33 INFO  : Hardware design information is loaded from '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/system.hdf'.
+21:47:33 INFO  : 'configparams force-mem-access 1' command is executed.
+21:47:33 INFO  : Context for 'APU' is selected.
+21:47:33 INFO  : 'stop' command is executed.
+21:47:33 INFO  : 'ps7_init' command is executed.
+21:47:33 INFO  : 'ps7_post_config' command is executed.
+21:47:33 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+21:47:33 INFO  : Context for processor 'microblaze_0' is selected.
+21:47:33 INFO  : Processor reset is completed for 'microblaze_0'.
+21:47:33 INFO  : Context for processor 'microblaze_0' is selected.
+21:47:33 INFO  : The application '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/kmeans/Debug/kmeans.elf' is downloaded to processor 'microblaze_0'.
+21:47:33 INFO  : 'configparams force-mem-access 0' command is executed.
+21:47:33 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 0
+loadhw -hw /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 0
+stop
+ps7_init
+ps7_post_config
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+dow /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/kmeans/Debug/kmeans.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+21:47:33 INFO  : Context for processor 'microblaze_0' is selected.
+21:47:33 INFO  : 'con' command is executed.
+21:47:33 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+con
+----------------End of Script----------------
+
+21:47:33 INFO  : Disconnected from the channel tcfchan#6.
+21:48:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248773728" && level==0} -index 1' command is executed.
+21:48:06 INFO  : 'fpga -state' command is executed.
+21:48:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:48:06 INFO  : Jtag cable 'Digilent Zed 210248773728' is selected.
+21:48:06 INFO  : 'jtag frequency' command is executed.
+21:48:06 INFO  : Sourcing of '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/ps7_init.tcl' is done.
+21:48:06 INFO  : Context for 'APU' is selected.
+21:48:06 INFO  : Hardware design information is loaded from '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/system.hdf'.
+21:48:06 INFO  : 'configparams force-mem-access 1' command is executed.
+21:48:06 INFO  : Context for 'APU' is selected.
+21:48:06 INFO  : 'stop' command is executed.
+21:48:07 INFO  : 'ps7_init' command is executed.
+21:48:07 INFO  : 'ps7_post_config' command is executed.
+21:48:07 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+21:48:07 INFO  : Context for processor 'microblaze_0' is selected.
+21:48:07 INFO  : Processor reset is completed for 'microblaze_0'.
+21:48:07 INFO  : Context for processor 'microblaze_0' is selected.
+21:48:07 INFO  : The application '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/kmeans/Debug/kmeans.elf' is downloaded to processor 'microblaze_0'.
+21:48:07 INFO  : 'configparams force-mem-access 0' command is executed.
+21:48:07 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 0
+loadhw -hw /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 0
+stop
+ps7_init
+ps7_post_config
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+dow /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/kmeans/Debug/kmeans.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+21:48:07 INFO  : Context for processor 'microblaze_0' is selected.
+21:48:07 INFO  : 'con' command is executed.
+21:48:07 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+con
+----------------End of Script----------------
+
+21:48:07 INFO  : Disconnected from the channel tcfchan#7.
+21:48:41 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248773728" && level==0} -index 1' command is executed.
+21:48:41 INFO  : 'fpga -state' command is executed.
+21:48:41 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:48:41 INFO  : Jtag cable 'Digilent Zed 210248773728' is selected.
+21:48:41 INFO  : 'jtag frequency' command is executed.
+21:48:41 INFO  : Sourcing of '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/ps7_init.tcl' is done.
+21:48:41 INFO  : Context for 'APU' is selected.
+21:48:41 INFO  : Hardware design information is loaded from '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/system.hdf'.
+21:48:41 INFO  : 'configparams force-mem-access 1' command is executed.
+21:48:41 INFO  : Context for 'APU' is selected.
+21:48:41 INFO  : 'stop' command is executed.
+21:48:41 INFO  : 'ps7_init' command is executed.
+21:48:41 INFO  : 'ps7_post_config' command is executed.
+21:48:41 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+21:48:41 INFO  : Context for processor 'microblaze_0' is selected.
+21:48:41 INFO  : Processor reset is completed for 'microblaze_0'.
+21:48:41 INFO  : Context for processor 'microblaze_0' is selected.
+21:48:41 INFO  : The application '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/kmeans/Debug/kmeans.elf' is downloaded to processor 'microblaze_0'.
+21:48:41 INFO  : 'configparams force-mem-access 0' command is executed.
+21:48:41 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 0
+loadhw -hw /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 0
+stop
+ps7_init
+ps7_post_config
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+dow /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/kmeans/Debug/kmeans.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+21:48:41 INFO  : Context for processor 'microblaze_0' is selected.
+21:48:41 INFO  : 'con' command is executed.
+21:48:41 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+con
+----------------End of Script----------------
+
+21:48:41 INFO  : Disconnected from the channel tcfchan#8.
+21:49:13 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248773728" && level==0} -index 1' command is executed.
+21:49:13 INFO  : 'fpga -state' command is executed.
+21:49:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:49:13 INFO  : Jtag cable 'Digilent Zed 210248773728' is selected.
+21:49:13 INFO  : 'jtag frequency' command is executed.
+21:49:13 INFO  : Sourcing of '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/ps7_init.tcl' is done.
+21:49:13 INFO  : Context for 'APU' is selected.
+21:49:14 INFO  : Hardware design information is loaded from '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/system.hdf'.
+21:49:14 INFO  : 'configparams force-mem-access 1' command is executed.
+21:49:14 INFO  : Context for 'APU' is selected.
+21:49:14 INFO  : 'stop' command is executed.
+21:49:14 INFO  : 'ps7_init' command is executed.
+21:49:14 INFO  : 'ps7_post_config' command is executed.
+21:49:14 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+21:49:14 INFO  : Context for processor 'microblaze_0' is selected.
+21:49:14 INFO  : Processor reset is completed for 'microblaze_0'.
+21:49:14 INFO  : Context for processor 'microblaze_0' is selected.
+21:49:14 INFO  : The application '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/kmeans/Debug/kmeans.elf' is downloaded to processor 'microblaze_0'.
+21:49:14 INFO  : 'configparams force-mem-access 0' command is executed.
+21:49:14 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 0
+loadhw -hw /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 0
+stop
+ps7_init
+ps7_post_config
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+dow /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/kmeans/Debug/kmeans.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+21:49:14 INFO  : Context for processor 'microblaze_0' is selected.
+21:49:14 INFO  : 'con' command is executed.
+21:49:14 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+con
+----------------End of Script----------------
+
+21:49:14 INFO  : Disconnected from the channel tcfchan#9.
+21:49:43 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:49:43 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248773728" && level==0} -index 1' command is executed.
+21:49:45 INFO  : FPGA configured successfully with bitstream "/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/download.bit"
+21:49:59 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248773728" && level==0} -index 1' command is executed.
+21:49:59 INFO  : 'fpga -state' command is executed.
+21:49:59 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:49:59 INFO  : Jtag cable 'Digilent Zed 210248773728' is selected.
+21:49:59 INFO  : 'jtag frequency' command is executed.
+21:49:59 INFO  : Sourcing of '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/ps7_init.tcl' is done.
+21:49:59 INFO  : Context for 'APU' is selected.
+21:49:59 INFO  : Hardware design information is loaded from '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/system.hdf'.
+21:49:59 INFO  : 'configparams force-mem-access 1' command is executed.
+21:49:59 INFO  : Context for 'APU' is selected.
+21:49:59 INFO  : 'stop' command is executed.
+21:50:00 INFO  : 'ps7_init' command is executed.
+21:50:00 INFO  : 'ps7_post_config' command is executed.
+21:50:00 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+21:50:00 INFO  : Context for processor 'microblaze_0' is selected.
+21:50:00 INFO  : Processor reset is completed for 'microblaze_0'.
+21:50:00 INFO  : Context for processor 'microblaze_0' is selected.
+21:50:00 INFO  : The application '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/kmeans/Debug/kmeans.elf' is downloaded to processor 'microblaze_0'.
+21:50:00 INFO  : 'configparams force-mem-access 0' command is executed.
+21:50:00 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 0
+loadhw -hw /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 0
+stop
+ps7_init
+ps7_post_config
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+dow /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/kmeans/Debug/kmeans.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+21:50:00 INFO  : Context for processor 'microblaze_0' is selected.
+21:50:00 INFO  : 'con' command is executed.
+21:50:00 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+con
+----------------End of Script----------------
+
+21:50:00 INFO  : Disconnected from the channel tcfchan#10.
+21:51:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248773728" && level==0} -index 1' command is executed.
+21:51:08 INFO  : 'fpga -state' command is executed.
+21:51:08 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:51:08 INFO  : Jtag cable 'Digilent Zed 210248773728' is selected.
+21:51:08 INFO  : 'jtag frequency' command is executed.
+21:51:08 INFO  : Sourcing of '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/ps7_init.tcl' is done.
+21:51:08 INFO  : Context for 'APU' is selected.
+21:51:08 INFO  : Hardware design information is loaded from '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/system.hdf'.
+21:51:08 INFO  : 'configparams force-mem-access 1' command is executed.
+21:51:08 INFO  : Context for 'APU' is selected.
+21:51:08 INFO  : 'stop' command is executed.
+21:51:09 INFO  : 'ps7_init' command is executed.
+21:51:09 INFO  : 'ps7_post_config' command is executed.
+21:51:09 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+21:51:09 INFO  : Context for processor 'microblaze_0' is selected.
+21:51:09 INFO  : Processor reset is completed for 'microblaze_0'.
+21:51:09 INFO  : Context for processor 'microblaze_0' is selected.
+21:51:09 INFO  : The application '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/kmeans/Debug/kmeans.elf' is downloaded to processor 'microblaze_0'.
+21:51:09 INFO  : 'configparams force-mem-access 0' command is executed.
+21:51:09 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 0
+loadhw -hw /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 0
+stop
+ps7_init
+ps7_post_config
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+dow /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/kmeans/Debug/kmeans.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+21:51:09 INFO  : Context for processor 'microblaze_0' is selected.
+21:51:09 INFO  : 'con' command is executed.
+21:51:09 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+con
+----------------End of Script----------------
+
+21:51:09 INFO  : Disconnected from the channel tcfchan#11.
+21:51:34 INFO  : Refreshed build settings on project kmeans
+21:55:31 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248773728" && level==0} -index 1' command is executed.
+21:55:31 INFO  : 'fpga -state' command is executed.
+21:55:31 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:55:31 INFO  : Jtag cable 'Digilent Zed 210248773728' is selected.
+21:55:31 INFO  : 'jtag frequency' command is executed.
+21:55:31 INFO  : Sourcing of '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/ps7_init.tcl' is done.
+21:55:31 INFO  : Context for 'APU' is selected.
+21:55:31 INFO  : Hardware design information is loaded from '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/system.hdf'.
+21:55:31 INFO  : 'configparams force-mem-access 1' command is executed.
+21:55:31 INFO  : Context for 'APU' is selected.
+21:55:31 INFO  : 'stop' command is executed.
+21:55:31 INFO  : 'ps7_init' command is executed.
+21:55:31 INFO  : 'ps7_post_config' command is executed.
+21:55:31 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+21:55:32 INFO  : Context for processor 'microblaze_0' is selected.
+21:55:32 INFO  : Processor reset is completed for 'microblaze_0'.
+21:55:32 INFO  : Context for processor 'microblaze_0' is selected.
+21:55:32 INFO  : The application '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/kmeans/Debug/kmeans.elf' is downloaded to processor 'microblaze_0'.
+21:55:32 INFO  : 'configparams force-mem-access 0' command is executed.
+21:55:32 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 0
+loadhw -hw /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 0
+stop
+ps7_init
+ps7_post_config
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+dow /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/kmeans/Debug/kmeans.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+21:55:32 INFO  : Context for processor 'microblaze_0' is selected.
+21:55:32 INFO  : 'con' command is executed.
+21:55:32 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+con
+----------------End of Script----------------
+
+21:55:32 INFO  : Disconnected from the channel tcfchan#12.
+21:57:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248773728" && level==0} -index 1' command is executed.
+21:57:07 INFO  : 'fpga -state' command is executed.
+21:57:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:57:07 INFO  : Jtag cable 'Digilent Zed 210248773728' is selected.
+21:57:07 INFO  : 'jtag frequency' command is executed.
+21:57:07 INFO  : Sourcing of '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/ps7_init.tcl' is done.
+21:57:07 INFO  : Context for 'APU' is selected.
+21:57:07 INFO  : Hardware design information is loaded from '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/system.hdf'.
+21:57:07 INFO  : 'configparams force-mem-access 1' command is executed.
+21:57:07 INFO  : Context for 'APU' is selected.
+21:57:07 INFO  : 'stop' command is executed.
+21:57:08 ERROR : Memory read error at 0xE0001034. AP transaction timeout
+21:57:08 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 0
+loadhw -hw /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 0
+stop
+ps7_init
+----------------End of Script----------------
+
+21:57:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:57:26 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248773728" && level==0} -index 1' command is executed.
+21:57:30 ERROR : fpga configuration failed. DONE PIN is not HIGH
+21:57:49 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:57:49 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248773728" && level==0} -index 1' command is executed.
+21:57:51 INFO  : FPGA configured successfully with bitstream "/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/download.bit"
+21:57:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248773728" && level==0} -index 1' command is executed.
+21:57:57 INFO  : 'fpga -state' command is executed.
+21:57:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:57:57 INFO  : Jtag cable 'Digilent Zed 210248773728' is selected.
+21:57:57 INFO  : 'jtag frequency' command is executed.
+21:57:57 INFO  : Sourcing of '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/ps7_init.tcl' is done.
+21:57:57 INFO  : Context for 'APU' is selected.
+21:57:57 INFO  : Hardware design information is loaded from '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/system.hdf'.
+21:57:57 INFO  : 'configparams force-mem-access 1' command is executed.
+21:57:57 INFO  : Context for 'APU' is selected.
+21:57:57 INFO  : 'stop' command is executed.
+21:57:57 INFO  : 'ps7_init' command is executed.
+21:57:57 INFO  : 'ps7_post_config' command is executed.
+21:57:57 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+21:57:57 INFO  : Context for processor 'microblaze_0' is selected.
+21:57:57 INFO  : Processor reset is completed for 'microblaze_0'.
+21:57:57 INFO  : Context for processor 'microblaze_0' is selected.
+21:57:58 INFO  : The application '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/kmeans/Debug/kmeans.elf' is downloaded to processor 'microblaze_0'.
+21:57:58 INFO  : 'configparams force-mem-access 0' command is executed.
+21:57:58 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 0
+loadhw -hw /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 0
+stop
+ps7_init
+ps7_post_config
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+dow /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/kmeans/Debug/kmeans.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+21:57:58 INFO  : Context for processor 'microblaze_0' is selected.
+21:57:58 INFO  : 'con' command is executed.
+21:57:58 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+con
+----------------End of Script----------------
+
+21:57:58 INFO  : Disconnected from the channel tcfchan#13.
+21:58:09 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248773728" && level==0} -index 1' command is executed.
+21:58:09 INFO  : 'fpga -state' command is executed.
+21:58:09 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:58:09 INFO  : Jtag cable 'Digilent Zed 210248773728' is selected.
+21:58:09 INFO  : 'jtag frequency' command is executed.
+21:58:09 INFO  : Sourcing of '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/ps7_init.tcl' is done.
+21:58:09 INFO  : Context for 'APU' is selected.
+21:58:09 INFO  : Hardware design information is loaded from '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/system.hdf'.
+21:58:09 INFO  : 'configparams force-mem-access 1' command is executed.
+21:58:09 INFO  : Context for 'APU' is selected.
+21:58:09 INFO  : 'stop' command is executed.
+21:58:09 INFO  : 'ps7_init' command is executed.
+21:58:09 INFO  : 'ps7_post_config' command is executed.
+21:58:09 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+21:58:09 INFO  : Context for processor 'microblaze_0' is selected.
+21:58:09 INFO  : Processor reset is completed for 'microblaze_0'.
+21:58:09 INFO  : Context for processor 'microblaze_0' is selected.
+21:58:10 INFO  : The application '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/kmeans/Debug/kmeans.elf' is downloaded to processor 'microblaze_0'.
+21:58:10 INFO  : 'configparams force-mem-access 0' command is executed.
+21:58:10 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 0
+loadhw -hw /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 0
+stop
+ps7_init
+ps7_post_config
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+dow /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/kmeans/Debug/kmeans.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+21:58:10 INFO  : Context for processor 'microblaze_0' is selected.
+21:58:10 INFO  : 'con' command is executed.
+21:58:10 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+con
+----------------End of Script----------------
+
+21:58:10 INFO  : Disconnected from the channel tcfchan#14.
+21:59:32 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248773728" && level==0} -index 1' command is executed.
+21:59:32 INFO  : 'fpga -state' command is executed.
+21:59:32 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:59:33 INFO  : Jtag cable 'Digilent Zed 210248773728' is selected.
+21:59:33 INFO  : 'jtag frequency' command is executed.
+21:59:33 INFO  : Sourcing of '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/ps7_init.tcl' is done.
+21:59:33 INFO  : Context for 'APU' is selected.
+21:59:33 INFO  : Hardware design information is loaded from '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/system.hdf'.
+21:59:33 INFO  : 'configparams force-mem-access 1' command is executed.
+21:59:33 INFO  : Context for 'APU' is selected.
+21:59:33 INFO  : 'stop' command is executed.
+21:59:33 INFO  : 'ps7_init' command is executed.
+21:59:33 INFO  : 'ps7_post_config' command is executed.
+21:59:33 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+21:59:33 INFO  : Context for processor 'microblaze_0' is selected.
+21:59:33 INFO  : Processor reset is completed for 'microblaze_0'.
+21:59:33 INFO  : Context for processor 'microblaze_0' is selected.
+21:59:34 INFO  : The application '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/kmeans/Debug/kmeans.elf' is downloaded to processor 'microblaze_0'.
+21:59:34 INFO  : 'configparams force-mem-access 0' command is executed.
+21:59:34 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 0
+loadhw -hw /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 0
+stop
+ps7_init
+ps7_post_config
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+dow /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/kmeans/Debug/kmeans.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+21:59:34 INFO  : Context for processor 'microblaze_0' is selected.
+21:59:34 INFO  : 'con' command is executed.
+21:59:34 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+con
+----------------End of Script----------------
+
+21:59:34 INFO  : Disconnected from the channel tcfchan#15.
+22:05:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248773728" && level==0} -index 1' command is executed.
+22:05:37 INFO  : 'fpga -state' command is executed.
+22:05:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:05:37 INFO  : Jtag cable 'Digilent Zed 210248773728' is selected.
+22:05:37 INFO  : 'jtag frequency' command is executed.
+22:05:37 INFO  : Sourcing of '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/ps7_init.tcl' is done.
+22:05:37 INFO  : Context for 'APU' is selected.
+22:05:37 INFO  : Hardware design information is loaded from '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/system.hdf'.
+22:05:37 INFO  : 'configparams force-mem-access 1' command is executed.
+22:05:37 INFO  : Context for 'APU' is selected.
+22:05:37 INFO  : 'stop' command is executed.
+22:05:38 INFO  : 'ps7_init' command is executed.
+22:05:38 INFO  : 'ps7_post_config' command is executed.
+22:05:38 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:05:38 INFO  : Context for processor 'microblaze_0' is selected.
+22:05:38 INFO  : Processor reset is completed for 'microblaze_0'.
+22:05:38 INFO  : Context for processor 'microblaze_0' is selected.
+22:05:39 INFO  : The application '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/kmeans/Debug/kmeans.elf' is downloaded to processor 'microblaze_0'.
+22:05:39 INFO  : 'configparams force-mem-access 0' command is executed.
+22:05:39 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 0
+loadhw -hw /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 0
+stop
+ps7_init
+ps7_post_config
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+dow /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/kmeans/Debug/kmeans.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+22:05:39 INFO  : Context for processor 'microblaze_0' is selected.
+22:05:39 INFO  : 'con' command is executed.
+22:05:39 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+con
+----------------End of Script----------------
+
+22:05:39 INFO  : Disconnected from the channel tcfchan#16.
+22:06:04 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248773728" && level==0} -index 1' command is executed.
+22:06:04 INFO  : 'fpga -state' command is executed.
+22:06:04 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:06:04 INFO  : Jtag cable 'Digilent Zed 210248773728' is selected.
+22:06:04 INFO  : 'jtag frequency' command is executed.
+22:06:04 INFO  : Sourcing of '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/ps7_init.tcl' is done.
+22:06:04 INFO  : Context for 'APU' is selected.
+22:06:04 INFO  : Hardware design information is loaded from '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/system.hdf'.
+22:06:04 INFO  : 'configparams force-mem-access 1' command is executed.
+22:06:04 INFO  : Context for 'APU' is selected.
+22:06:04 INFO  : 'stop' command is executed.
+22:06:05 INFO  : 'ps7_init' command is executed.
+22:06:05 INFO  : 'ps7_post_config' command is executed.
+22:06:05 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:06:05 INFO  : Context for processor 'microblaze_0' is selected.
+22:06:05 INFO  : Processor reset is completed for 'microblaze_0'.
+22:06:05 INFO  : Context for processor 'microblaze_0' is selected.
+22:06:05 INFO  : The application '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/kmeans/Debug/kmeans.elf' is downloaded to processor 'microblaze_0'.
+22:06:05 INFO  : 'configparams force-mem-access 0' command is executed.
+22:06:05 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 0
+loadhw -hw /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 0
+stop
+ps7_init
+ps7_post_config
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+dow /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/kmeans/Debug/kmeans.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+22:06:06 INFO  : Context for processor 'microblaze_0' is selected.
+22:06:06 INFO  : 'con' command is executed.
+22:06:06 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+con
+----------------End of Script----------------
+
+22:06:06 INFO  : Disconnected from the channel tcfchan#17.
+22:06:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:06:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248773728" && level==0} -index 1' command is executed.
+22:06:27 INFO  : FPGA configured successfully with bitstream "/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/download.bit"
+22:06:35 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248773728" && level==0} -index 1' command is executed.
+22:06:35 INFO  : 'fpga -state' command is executed.
+22:06:35 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:06:35 INFO  : Jtag cable 'Digilent Zed 210248773728' is selected.
+22:06:35 INFO  : 'jtag frequency' command is executed.
+22:06:35 INFO  : Sourcing of '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/ps7_init.tcl' is done.
+22:06:35 INFO  : Context for 'APU' is selected.
+22:06:35 INFO  : Hardware design information is loaded from '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/system.hdf'.
+22:06:35 INFO  : 'configparams force-mem-access 1' command is executed.
+22:06:35 INFO  : Context for 'APU' is selected.
+22:06:35 INFO  : 'stop' command is executed.
+22:06:35 INFO  : 'ps7_init' command is executed.
+22:06:35 INFO  : 'ps7_post_config' command is executed.
+22:06:35 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:06:35 INFO  : Context for processor 'microblaze_0' is selected.
+22:06:35 INFO  : Processor reset is completed for 'microblaze_0'.
+22:06:35 INFO  : Context for processor 'microblaze_0' is selected.
+22:06:36 INFO  : The application '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/kmeans/Debug/kmeans.elf' is downloaded to processor 'microblaze_0'.
+22:06:36 INFO  : 'configparams force-mem-access 0' command is executed.
+22:06:36 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 0
+loadhw -hw /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 0
+stop
+ps7_init
+ps7_post_config
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+dow /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/kmeans/Debug/kmeans.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+22:06:36 INFO  : Context for processor 'microblaze_0' is selected.
+22:06:36 INFO  : 'con' command is executed.
+22:06:36 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+con
+----------------End of Script----------------
+
+22:06:36 INFO  : Disconnected from the channel tcfchan#18.
+22:12:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:12:48 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248773728" && level==0} -index 1' command is executed.
+22:12:54 INFO  : FPGA configured successfully with bitstream "/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/download.bit"
+22:13:00 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248773728" && level==0} -index 1' command is executed.
+22:13:00 INFO  : 'fpga -state' command is executed.
+22:13:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:13:00 INFO  : Jtag cable 'Digilent Zed 210248773728' is selected.
+22:13:00 INFO  : 'jtag frequency' command is executed.
+22:13:00 INFO  : Sourcing of '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/ps7_init.tcl' is done.
+22:13:00 INFO  : Context for 'APU' is selected.
+22:13:00 INFO  : Hardware design information is loaded from '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/system.hdf'.
+22:13:00 INFO  : 'configparams force-mem-access 1' command is executed.
+22:13:00 INFO  : Context for 'APU' is selected.
+22:13:00 INFO  : 'stop' command is executed.
+22:13:01 INFO  : 'ps7_init' command is executed.
+22:13:01 INFO  : 'ps7_post_config' command is executed.
+22:13:01 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:13:01 INFO  : Context for processor 'microblaze_0' is selected.
+22:13:01 INFO  : Processor reset is completed for 'microblaze_0'.
+22:13:01 INFO  : Context for processor 'microblaze_0' is selected.
+22:13:02 INFO  : The application '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/kmeans/Debug/kmeans.elf' is downloaded to processor 'microblaze_0'.
+22:13:02 INFO  : 'configparams force-mem-access 0' command is executed.
+22:13:02 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 0
+loadhw -hw /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 0
+stop
+ps7_init
+ps7_post_config
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+dow /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/kmeans/Debug/kmeans.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+22:13:02 INFO  : Context for processor 'microblaze_0' is selected.
+22:13:02 INFO  : 'con' command is executed.
+22:13:02 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+con
+----------------End of Script----------------
+
+22:13:02 INFO  : Disconnected from the channel tcfchan#19.
+22:15:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248773728" && level==0} -index 1' command is executed.
+22:15:29 INFO  : 'fpga -state' command is executed.
+22:15:29 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:15:29 INFO  : Jtag cable 'Digilent Zed 210248773728' is selected.
+22:15:29 INFO  : 'jtag frequency' command is executed.
+22:15:29 INFO  : Sourcing of '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/ps7_init.tcl' is done.
+22:15:29 INFO  : Context for 'APU' is selected.
+22:15:29 INFO  : Hardware design information is loaded from '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/system.hdf'.
+22:15:29 INFO  : 'configparams force-mem-access 1' command is executed.
+22:15:29 INFO  : Context for 'APU' is selected.
+22:15:29 INFO  : 'stop' command is executed.
+22:15:30 INFO  : 'ps7_init' command is executed.
+22:15:30 INFO  : 'ps7_post_config' command is executed.
+22:15:30 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:15:30 INFO  : Context for processor 'microblaze_0' is selected.
+22:15:30 INFO  : Processor reset is completed for 'microblaze_0'.
+22:15:30 INFO  : Context for processor 'microblaze_0' is selected.
+22:15:31 INFO  : The application '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/kmeans/Debug/kmeans.elf' is downloaded to processor 'microblaze_0'.
+22:15:31 INFO  : 'configparams force-mem-access 0' command is executed.
+22:15:31 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 0
+loadhw -hw /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 0
+stop
+ps7_init
+ps7_post_config
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+dow /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/kmeans/Debug/kmeans.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+22:15:31 INFO  : Context for processor 'microblaze_0' is selected.
+22:15:31 INFO  : 'con' command is executed.
+22:15:31 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+con
+----------------End of Script----------------
+
+22:15:31 INFO  : Disconnected from the channel tcfchan#20.
+22:18:00 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248773728" && level==0} -index 1' command is executed.
+22:18:00 INFO  : 'fpga -state' command is executed.
+22:18:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:18:00 INFO  : Jtag cable 'Digilent Zed 210248773728' is selected.
+22:18:00 INFO  : 'jtag frequency' command is executed.
+22:18:00 INFO  : Sourcing of '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/ps7_init.tcl' is done.
+22:18:00 INFO  : Context for 'APU' is selected.
+22:18:00 INFO  : Hardware design information is loaded from '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/system.hdf'.
+22:18:00 INFO  : 'configparams force-mem-access 1' command is executed.
+22:18:00 INFO  : Context for 'APU' is selected.
+22:18:00 INFO  : 'stop' command is executed.
+22:18:01 INFO  : 'ps7_init' command is executed.
+22:18:01 INFO  : 'ps7_post_config' command is executed.
+22:18:01 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:18:01 INFO  : Context for processor 'microblaze_0' is selected.
+22:18:01 INFO  : Processor reset is completed for 'microblaze_0'.
+22:18:01 INFO  : Context for processor 'microblaze_0' is selected.
+22:18:02 INFO  : The application '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/kmeans/Debug/kmeans.elf' is downloaded to processor 'microblaze_0'.
+22:18:02 INFO  : 'configparams force-mem-access 0' command is executed.
+22:18:02 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 0
+loadhw -hw /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 0
+stop
+ps7_init
+ps7_post_config
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+dow /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/kmeans/Debug/kmeans.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+22:18:02 INFO  : Context for processor 'microblaze_0' is selected.
+22:18:02 INFO  : 'con' command is executed.
+22:18:02 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+con
+----------------End of Script----------------
+
+22:18:02 INFO  : Disconnected from the channel tcfchan#21.
+22:19:02 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248773728" && level==0} -index 1' command is executed.
+22:19:02 INFO  : 'fpga -state' command is executed.
+22:19:02 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:19:02 INFO  : Jtag cable 'Digilent Zed 210248773728' is selected.
+22:19:02 INFO  : 'jtag frequency' command is executed.
+22:19:02 INFO  : Sourcing of '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/ps7_init.tcl' is done.
+22:19:02 INFO  : Context for 'APU' is selected.
+22:19:02 INFO  : Hardware design information is loaded from '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/system.hdf'.
+22:19:02 INFO  : 'configparams force-mem-access 1' command is executed.
+22:19:02 INFO  : Context for 'APU' is selected.
+22:19:02 INFO  : 'stop' command is executed.
+22:19:03 INFO  : 'ps7_init' command is executed.
+22:19:03 INFO  : 'ps7_post_config' command is executed.
+22:19:03 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:19:03 INFO  : Context for processor 'microblaze_0' is selected.
+22:19:03 INFO  : Processor reset is completed for 'microblaze_0'.
+22:19:03 INFO  : Context for processor 'microblaze_0' is selected.
+22:19:04 INFO  : The application '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/kmeans/Debug/kmeans.elf' is downloaded to processor 'microblaze_0'.
+22:19:04 INFO  : 'configparams force-mem-access 0' command is executed.
+22:19:04 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 0
+loadhw -hw /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 0
+stop
+ps7_init
+ps7_post_config
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+dow /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/kmeans/Debug/kmeans.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+22:19:04 INFO  : Context for processor 'microblaze_0' is selected.
+22:19:04 INFO  : 'con' command is executed.
+22:19:04 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+con
+----------------End of Script----------------
+
+22:19:04 INFO  : Disconnected from the channel tcfchan#22.
+22:19:26 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248773728" && level==0} -index 1' command is executed.
+22:19:26 INFO  : 'fpga -state' command is executed.
+22:19:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:19:27 INFO  : Jtag cable 'Digilent Zed 210248773728' is selected.
+22:19:27 INFO  : 'jtag frequency' command is executed.
+22:19:27 INFO  : Sourcing of '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/ps7_init.tcl' is done.
+22:19:27 INFO  : Context for 'APU' is selected.
+22:19:27 INFO  : Hardware design information is loaded from '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/system.hdf'.
+22:19:27 INFO  : 'configparams force-mem-access 1' command is executed.
+22:19:27 INFO  : Context for 'APU' is selected.
+22:19:27 INFO  : 'stop' command is executed.
+22:19:27 INFO  : 'ps7_init' command is executed.
+22:19:27 INFO  : 'ps7_post_config' command is executed.
+22:19:27 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:19:27 INFO  : Context for processor 'microblaze_0' is selected.
+22:19:27 INFO  : Processor reset is completed for 'microblaze_0'.
+22:19:27 INFO  : Context for processor 'microblaze_0' is selected.
+22:19:28 INFO  : The application '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/kmeans/Debug/kmeans.elf' is downloaded to processor 'microblaze_0'.
+22:19:28 INFO  : 'configparams force-mem-access 0' command is executed.
+22:19:28 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 0
+loadhw -hw /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 0
+stop
+ps7_init
+ps7_post_config
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+dow /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/kmeans/Debug/kmeans.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+22:19:28 INFO  : Context for processor 'microblaze_0' is selected.
+22:19:28 INFO  : 'con' command is executed.
+22:19:28 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+con
+----------------End of Script----------------
+
+22:19:28 INFO  : Disconnected from the channel tcfchan#23.
+22:21:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248773728" && level==0} -index 1' command is executed.
+22:21:29 INFO  : 'fpga -state' command is executed.
+22:21:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:21:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248773728" && level==0} -index 1' command is executed.
+22:21:51 INFO  : FPGA configured successfully with bitstream "/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/download.bit"
+22:22:10 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248773728" && level==0} -index 1' command is executed.
+22:22:10 INFO  : 'fpga -state' command is executed.
+22:22:10 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:22:10 INFO  : Jtag cable 'Digilent Zed 210248773728' is selected.
+22:22:10 INFO  : 'jtag frequency' command is executed.
+22:22:10 INFO  : Sourcing of '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/ps7_init.tcl' is done.
+22:22:10 INFO  : Context for 'APU' is selected.
+22:22:10 INFO  : Hardware design information is loaded from '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/system.hdf'.
+22:22:10 INFO  : 'configparams force-mem-access 1' command is executed.
+22:22:10 INFO  : Context for 'APU' is selected.
+22:22:10 INFO  : 'stop' command is executed.
+22:22:11 INFO  : 'ps7_init' command is executed.
+22:22:11 INFO  : 'ps7_post_config' command is executed.
+22:22:11 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:22:11 INFO  : Context for processor 'microblaze_0' is selected.
+22:22:11 INFO  : Processor reset is completed for 'microblaze_0'.
+22:22:11 INFO  : Context for processor 'microblaze_0' is selected.
+22:22:12 INFO  : The application '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/kmeans/Debug/kmeans.elf' is downloaded to processor 'microblaze_0'.
+22:22:12 INFO  : 'configparams force-mem-access 0' command is executed.
+22:22:12 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 0
+loadhw -hw /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 0
+stop
+ps7_init
+ps7_post_config
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+dow /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/kmeans/Debug/kmeans.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+22:22:12 INFO  : Context for processor 'microblaze_0' is selected.
+22:22:12 INFO  : 'con' command is executed.
+22:22:12 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+con
+----------------End of Script----------------
+
+22:22:12 INFO  : Disconnected from the channel tcfchan#24.
+22:23:01 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248773728" && level==0} -index 1' command is executed.
+22:23:01 INFO  : 'fpga -state' command is executed.
+22:23:01 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:23:01 INFO  : Jtag cable 'Digilent Zed 210248773728' is selected.
+22:23:01 INFO  : 'jtag frequency' command is executed.
+22:23:01 INFO  : Sourcing of '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/ps7_init.tcl' is done.
+22:23:01 INFO  : Context for 'APU' is selected.
+22:23:01 INFO  : Hardware design information is loaded from '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/system.hdf'.
+22:23:01 INFO  : 'configparams force-mem-access 1' command is executed.
+22:23:01 INFO  : Context for 'APU' is selected.
+22:23:01 INFO  : 'stop' command is executed.
+22:23:02 INFO  : 'ps7_init' command is executed.
+22:23:02 INFO  : 'ps7_post_config' command is executed.
+22:23:02 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:23:02 INFO  : Context for processor 'microblaze_0' is selected.
+22:23:02 INFO  : Processor reset is completed for 'microblaze_0'.
+22:23:02 INFO  : Context for processor 'microblaze_0' is selected.
+22:23:03 INFO  : The application '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/kmeans/Debug/kmeans.elf' is downloaded to processor 'microblaze_0'.
+22:23:03 INFO  : 'configparams force-mem-access 0' command is executed.
+22:23:03 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 0
+loadhw -hw /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 0
+stop
+ps7_init
+ps7_post_config
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+dow /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/kmeans/Debug/kmeans.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+22:23:03 INFO  : Context for processor 'microblaze_0' is selected.
+22:23:03 INFO  : 'con' command is executed.
+22:23:03 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+con
+----------------End of Script----------------
+
+22:23:03 INFO  : Disconnected from the channel tcfchan#25.
+22:30:51 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248773728" && level==0} -index 1' command is executed.
+22:30:51 INFO  : 'fpga -state' command is executed.
+22:30:51 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:30:51 INFO  : Jtag cable 'Digilent Zed 210248773728' is selected.
+22:30:51 INFO  : 'jtag frequency' command is executed.
+22:30:51 INFO  : Sourcing of '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/ps7_init.tcl' is done.
+22:30:51 INFO  : Context for 'APU' is selected.
+22:30:51 INFO  : Hardware design information is loaded from '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/system.hdf'.
+22:30:51 INFO  : 'configparams force-mem-access 1' command is executed.
+22:30:51 INFO  : Context for 'APU' is selected.
+22:30:51 INFO  : 'stop' command is executed.
+22:30:51 INFO  : 'ps7_init' command is executed.
+22:30:51 INFO  : 'ps7_post_config' command is executed.
+22:30:51 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:30:51 INFO  : Context for processor 'microblaze_0' is selected.
+22:30:51 INFO  : Processor reset is completed for 'microblaze_0'.
+22:30:51 INFO  : Context for processor 'microblaze_0' is selected.
+22:30:52 INFO  : The application '/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/kmeans/Debug/kmeans.elf' is downloaded to processor 'microblaze_0'.
+22:30:52 INFO  : 'configparams force-mem-access 0' command is executed.
+22:30:52 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 0
+loadhw -hw /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/microblaze_arm_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 0
+stop
+ps7_init
+ps7_post_config
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+dow /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/kmeans/Debug/kmeans.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+22:30:52 INFO  : Context for processor 'microblaze_0' is selected.
+22:30:52 INFO  : 'con' command is executed.
+22:30:52 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zed 210248773728"} -index 1
+con
+----------------End of Script----------------
+
+22:30:52 INFO  : Disconnected from the channel tcfchan#26.

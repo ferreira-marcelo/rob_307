@@ -1,0 +1,18 @@
+#include "kmeans.h"
+
+
+int main()
+{
+    print("Hello \n");
+
+	TCHAR *Path = "0:/";
+	FRESULT  result;
+	result = f_mount(&FS_instance,Path, 0);
+	if (result != FR_OK) {
+		printf("Cannot mount sd\n");
+		return EXIT_FAILURE;
+	}
+	printf("sd card ok \n");
+
+    return 0;
+}

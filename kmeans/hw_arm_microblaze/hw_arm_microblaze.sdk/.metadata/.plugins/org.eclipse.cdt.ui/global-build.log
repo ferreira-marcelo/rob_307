@@ -1,0 +1,1869 @@
+20:54:53 **** Build of project kmeans_bsp ****
+make -k all 
+Running Make include in microblaze_0/libsrc/ddrps_v1_0/src
+make -C microblaze_0/libsrc/ddrps_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in microblaze_0/libsrc/qspips_v3_4/src
+make -C microblaze_0/libsrc/qspips_v3_4/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in microblaze_0/libsrc/standalone_v6_7/src
+make -C microblaze_0/libsrc/standalone_v6_7/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in microblaze_0/libsrc/gpiops_v3_3/src
+make -C microblaze_0/libsrc/gpiops_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in microblaze_0/libsrc/emacps_v3_7/src
+make -C microblaze_0/libsrc/emacps_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in microblaze_0/libsrc/uartps_v3_6/src
+make -C microblaze_0/libsrc/uartps_v3_6/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in microblaze_0/libsrc/bram_v4_2/src
+make -C microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in microblaze_0/libsrc/cpu_v2_7/src
+make -C microblaze_0/libsrc/cpu_v2_7/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in microblaze_0/libsrc/sdps_v3_5/src
+make -C microblaze_0/libsrc/sdps_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in microblaze_0/libsrc/usbps_v2_4/src
+make -C microblaze_0/libsrc/usbps_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in microblaze_0/libsrc/tmrctr_v4_4/src
+make -C microblaze_0/libsrc/tmrctr_v4_4/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make libs in microblaze_0/libsrc/ddrps_v1_0/src
+make -C microblaze_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling ddrps
+mb-ar: creating ../../../lib/libxil.a
+Running Make libs in microblaze_0/libsrc/qspips_v3_4/src
+make -C microblaze_0/libsrc/qspips_v3_4/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling qspips
+Running Make libs in microblaze_0/libsrc/standalone_v6_7/src
+make -C microblaze_0/libsrc/standalone_v6_7/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling standalone
+microblaze_sleep.c:74:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+Running Make libs in microblaze_0/libsrc/gpiops_v3_3/src
+make -C microblaze_0/libsrc/gpiops_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling gpiops
+Running Make libs in microblaze_0/libsrc/emacps_v3_7/src
+make -C microblaze_0/libsrc/emacps_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling emacps
+Running Make libs in microblaze_0/libsrc/uartps_v3_6/src
+make -C microblaze_0/libsrc/uartps_v3_6/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling uartps
+Running Make libs in microblaze_0/libsrc/bram_v4_2/src
+make -C microblaze_0/libsrc/bram_v4_2/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling bram
+Running Make libs in microblaze_0/libsrc/cpu_v2_7/src
+make -C microblaze_0/libsrc/cpu_v2_7/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling cpu
+Running Make libs in microblaze_0/libsrc/sdps_v3_5/src
+make -C microblaze_0/libsrc/sdps_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling sdps
+Running Make libs in microblaze_0/libsrc/usbps_v2_4/src
+make -C microblaze_0/libsrc/usbps_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling usbps
+Running Make libs in microblaze_0/libsrc/tmrctr_v4_4/src
+make -C microblaze_0/libsrc/tmrctr_v4_4/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling tmrctr
+Finished building libraries
+20:54:56 **** Build of configuration Debug for project kmeans ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../kmeans_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building file: ../src/platform.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../kmeans_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: kmeans.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../kmeans_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "kmeans.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: kmeans.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size kmeans.elf  |tee "kmeans.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2776	    268	   3108	   6152	   1808	kmeans.elf
+Finished building: kmeans.elf.size
+ 
+20:54:58 **** Auto Build of configuration Debug for project kmeans ****
+make all 
+make: Nothing to be done for 'all'.
+21:12:45 **** Build of project kmeans_bsp ****
+make -k all 
+Running Make include in microblaze_0/libsrc/ddrps_v1_0/src
+make -C microblaze_0/libsrc/ddrps_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in microblaze_0/libsrc/qspips_v3_4/src
+make -C microblaze_0/libsrc/qspips_v3_4/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in microblaze_0/libsrc/standalone_v6_7/src
+make -C microblaze_0/libsrc/standalone_v6_7/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in microblaze_0/libsrc/gpiops_v3_3/src
+make -C microblaze_0/libsrc/gpiops_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in microblaze_0/libsrc/emacps_v3_7/src
+make -C microblaze_0/libsrc/emacps_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in microblaze_0/libsrc/uartps_v3_6/src
+make -C microblaze_0/libsrc/uartps_v3_6/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in microblaze_0/libsrc/bram_v4_2/src
+make -C microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in microblaze_0/libsrc/cpu_v2_7/src
+make -C microblaze_0/libsrc/cpu_v2_7/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in microblaze_0/libsrc/sdps_v3_5/src
+make -C microblaze_0/libsrc/sdps_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in microblaze_0/libsrc/usbps_v2_4/src
+make -C microblaze_0/libsrc/usbps_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in microblaze_0/libsrc/tmrctr_v4_4/src
+make -C microblaze_0/libsrc/tmrctr_v4_4/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make libs in microblaze_0/libsrc/ddrps_v1_0/src
+make -C microblaze_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling ddrps
+mb-ar: creating ../../../lib/libxil.a
+Running Make libs in microblaze_0/libsrc/qspips_v3_4/src
+make -C microblaze_0/libsrc/qspips_v3_4/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling qspips
+Running Make libs in microblaze_0/libsrc/standalone_v6_7/src
+make -C microblaze_0/libsrc/standalone_v6_7/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling standalone
+microblaze_sleep.c:74:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+Running Make libs in microblaze_0/libsrc/gpiops_v3_3/src
+make -C microblaze_0/libsrc/gpiops_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling gpiops
+Running Make libs in microblaze_0/libsrc/emacps_v3_7/src
+make -C microblaze_0/libsrc/emacps_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling emacps
+Running Make libs in microblaze_0/libsrc/uartps_v3_6/src
+make -C microblaze_0/libsrc/uartps_v3_6/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling uartps
+Running Make libs in microblaze_0/libsrc/bram_v4_2/src
+make -C microblaze_0/libsrc/bram_v4_2/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling bram
+Running Make libs in microblaze_0/libsrc/cpu_v2_7/src
+make -C microblaze_0/libsrc/cpu_v2_7/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling cpu
+Running Make libs in microblaze_0/libsrc/sdps_v3_5/src
+make -C microblaze_0/libsrc/sdps_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling sdps
+Running Make libs in microblaze_0/libsrc/usbps_v2_4/src
+make -C microblaze_0/libsrc/usbps_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling usbps
+Running Make libs in microblaze_0/libsrc/tmrctr_v4_4/src
+make -C microblaze_0/libsrc/tmrctr_v4_4/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling tmrctr
+Finished building libraries
+
+**** Build of configuration Debug for project kmeans ****
+
+Nothing to build for project kmeans
+
+****  of configuration Debug for project kmeans ****
+
+Nothing to build for project kmeans
+
+****  of configuration Debug for project kmeans ****
+
+Nothing to build for project kmeans
+21:16:23 **** Auto Build of project kmeans_bsp ****
+make -k all 
+Running Make include in microblaze_0/libsrc/ddrps_v1_0/src
+make -C microblaze_0/libsrc/ddrps_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in microblaze_0/libsrc/qspips_v3_4/src
+make -C microblaze_0/libsrc/qspips_v3_4/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in microblaze_0/libsrc/standalone_v6_7/src
+make -C microblaze_0/libsrc/standalone_v6_7/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in microblaze_0/libsrc/gpiops_v3_3/src
+make -C microblaze_0/libsrc/gpiops_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in microblaze_0/libsrc/emacps_v3_7/src
+make -C microblaze_0/libsrc/emacps_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in microblaze_0/libsrc/uartps_v3_6/src
+make -C microblaze_0/libsrc/uartps_v3_6/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in microblaze_0/libsrc/xilffs_v3_9/src
+make -C microblaze_0/libsrc/xilffs_v3_9/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in microblaze_0/libsrc/bram_v4_2/src
+make -C microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in microblaze_0/libsrc/cpu_v2_7/src
+make -C microblaze_0/libsrc/cpu_v2_7/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in microblaze_0/libsrc/sdps_v3_5/src
+make -C microblaze_0/libsrc/sdps_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in microblaze_0/libsrc/usbps_v2_4/src
+make -C microblaze_0/libsrc/usbps_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in microblaze_0/libsrc/tmrctr_v4_4/src
+make -C microblaze_0/libsrc/tmrctr_v4_4/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make libs in microblaze_0/libsrc/ddrps_v1_0/src
+make -C microblaze_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling ddrps
+mb-ar: creating ../../../lib/libxil.a
+Running Make libs in microblaze_0/libsrc/qspips_v3_4/src
+make -C microblaze_0/libsrc/qspips_v3_4/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling qspips
+Running Make libs in microblaze_0/libsrc/standalone_v6_7/src
+make -C microblaze_0/libsrc/standalone_v6_7/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling standalone
+microblaze_sleep.c:74:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+Running Make libs in microblaze_0/libsrc/gpiops_v3_3/src
+make -C microblaze_0/libsrc/gpiops_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling gpiops
+Running Make libs in microblaze_0/libsrc/emacps_v3_7/src
+make -C microblaze_0/libsrc/emacps_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling emacps
+Running Make libs in microblaze_0/libsrc/uartps_v3_6/src
+make -C microblaze_0/libsrc/uartps_v3_6/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling uartps
+Running Make libs in microblaze_0/libsrc/xilffs_v3_9/src
+make -C microblaze_0/libsrc/xilffs_v3_9/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling XilFFs Library
+Running Make libs in microblaze_0/libsrc/bram_v4_2/src
+make -C microblaze_0/libsrc/bram_v4_2/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling bram
+Running Make libs in microblaze_0/libsrc/cpu_v2_7/src
+make -C microblaze_0/libsrc/cpu_v2_7/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling cpu
+Running Make libs in microblaze_0/libsrc/sdps_v3_5/src
+make -C microblaze_0/libsrc/sdps_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling sdps
+Running Make libs in microblaze_0/libsrc/usbps_v2_4/src
+make -C microblaze_0/libsrc/usbps_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling usbps
+Running Make libs in microblaze_0/libsrc/tmrctr_v4_4/src
+make -C microblaze_0/libsrc/tmrctr_v4_4/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling tmrctr
+Finished building libraries
+
+****  of configuration Debug for project kmeans ****
+
+Nothing to build for project kmeans
+
+****  of configuration Debug for project kmeans ****
+
+Nothing to build for project kmeans
+
+****  of configuration Debug for project kmeans ****
+
+Nothing to build for project kmeans
+
+****  of configuration Debug for project kmeans ****
+
+Nothing to build for project kmeans
+21:17:22 **** Auto Build of configuration Debug for project kmeans ****
+make all 
+Building file: ../src/timer_c.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/timer_c.o" -I../../kmeans_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/timer_c.d" -MT"src/timer_c.o" -o "src/timer_c.o" "../src/timer_c.c"
+Finished building: ../src/timer_c.c
+ 
+Building target: kmeans.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../kmeans_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "kmeans.elf"  ./src/timer_c.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+/opt/Xilinx/SDK/2018.2/gnu/microblaze/lin/bin/../lib/gcc/microblaze-xilinx-elf/7.2.0/../../../../microblaze-xilinx-elf/lib/le/crtinit.o: In function `_crtinit':
+(.text+0x78): undefined reference to `main'
+makefile:36: recipe for target 'kmeans.elf' failed
+collect2: error: ld returned 1 exit status
+make: *** [kmeans.elf] Error 1
+21:19:31 **** Build of project kmeans_bsp ****
+make -k all 
+Running Make include in microblaze_0/libsrc/ddrps_v1_0/src
+make -C microblaze_0/libsrc/ddrps_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in microblaze_0/libsrc/qspips_v3_4/src
+make -C microblaze_0/libsrc/qspips_v3_4/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in microblaze_0/libsrc/standalone_v6_7/src
+make -C microblaze_0/libsrc/standalone_v6_7/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in microblaze_0/libsrc/gpiops_v3_3/src
+make -C microblaze_0/libsrc/gpiops_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in microblaze_0/libsrc/emacps_v3_7/src
+make -C microblaze_0/libsrc/emacps_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in microblaze_0/libsrc/uartps_v3_6/src
+make -C microblaze_0/libsrc/uartps_v3_6/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in microblaze_0/libsrc/xilffs_v3_9/src
+make -C microblaze_0/libsrc/xilffs_v3_9/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in microblaze_0/libsrc/bram_v4_2/src
+make -C microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in microblaze_0/libsrc/cpu_v2_7/src
+make -C microblaze_0/libsrc/cpu_v2_7/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in microblaze_0/libsrc/sdps_v3_5/src
+make -C microblaze_0/libsrc/sdps_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in microblaze_0/libsrc/usbps_v2_4/src
+make -C microblaze_0/libsrc/usbps_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in microblaze_0/libsrc/tmrctr_v4_4/src
+make -C microblaze_0/libsrc/tmrctr_v4_4/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make libs in microblaze_0/libsrc/ddrps_v1_0/src
+make -C microblaze_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling ddrps
+Running Make libs in microblaze_0/libsrc/qspips_v3_4/src
+make -C microblaze_0/libsrc/qspips_v3_4/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling qspips
+Running Make libs in microblaze_0/libsrc/standalone_v6_7/src
+make -C microblaze_0/libsrc/standalone_v6_7/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling standalone
+microblaze_sleep.c:74:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+Running Make libs in microblaze_0/libsrc/gpiops_v3_3/src
+make -C microblaze_0/libsrc/gpiops_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling gpiops
+Running Make libs in microblaze_0/libsrc/emacps_v3_7/src
+make -C microblaze_0/libsrc/emacps_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling emacps
+Running Make libs in microblaze_0/libsrc/uartps_v3_6/src
+make -C microblaze_0/libsrc/uartps_v3_6/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling uartps
+Running Make libs in microblaze_0/libsrc/xilffs_v3_9/src
+make -C microblaze_0/libsrc/xilffs_v3_9/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling XilFFs Library
+Running Make libs in microblaze_0/libsrc/bram_v4_2/src
+make -C microblaze_0/libsrc/bram_v4_2/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling bram
+Running Make libs in microblaze_0/libsrc/cpu_v2_7/src
+make -C microblaze_0/libsrc/cpu_v2_7/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling cpu
+Running Make libs in microblaze_0/libsrc/sdps_v3_5/src
+make -C microblaze_0/libsrc/sdps_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling sdps
+Running Make libs in microblaze_0/libsrc/usbps_v2_4/src
+make -C microblaze_0/libsrc/usbps_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling usbps
+Running Make libs in microblaze_0/libsrc/tmrctr_v4_4/src
+make -C microblaze_0/libsrc/tmrctr_v4_4/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling tmrctr
+Finished building libraries
+21:19:35 **** Clean-only build of configuration Debug for project kmeans ****
+make clean 
+rm -rf  ./src/timer_c.o  ./src/timer_c.d  kmeans.elf.size  kmeans.elf
+ 
+21:19:35 **** Build of configuration Debug for project kmeans ****
+make all 
+Building file: ../src/timer_c.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/timer_c.o" -I../../kmeans_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/timer_c.d" -MT"src/timer_c.o" -o "src/timer_c.o" "../src/timer_c.c"
+Finished building: ../src/timer_c.c
+ 
+Building target: kmeans.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../kmeans_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "kmeans.elf"  ./src/timer_c.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+/opt/Xilinx/SDK/2018.2/gnu/microblaze/lin/bin/../lib/gcc/microblaze-xilinx-elf/7.2.0/../../../../microblaze-xilinx-elf/lib/le/crtinit.o: In function `_crtinit':
+(.text+0x78): undefined reference to `main'
+makefile:36: recipe for target 'kmeans.elf' failed
+collect2: error: ld returned 1 exit status
+make: *** [kmeans.elf] Error 1
+21:19:50 **** Auto Build of configuration Debug for project kmeans ****
+make all 
+Building file: ../src/kmeans.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/kmeans.o" -I../../kmeans_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/kmeans.d" -MT"src/kmeans.o" -o "src/kmeans.o" "../src/kmeans.c"
+Finished building: ../src/kmeans.c
+ 
+Building target: kmeans.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../kmeans_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "kmeans.elf"  ./src/kmeans.o ./src/timer_c.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+/opt/Xilinx/SDK/2018.2/gnu/microblaze/lin/bin/../lib/gcc/microblaze-xilinx-elf/7.2.0/../../../../microblaze-xilinx-elf/lib/le/crtinit.o: In function `_crtinit':
+(.text+0x78): undefined reference to `main'
+makefile:36: recipe for target 'kmeans.elf' failed
+collect2: error: ld returned 1 exit status
+make: *** [kmeans.elf] Error 1
+21:20:23 **** Auto Build of configuration Debug for project kmeans ****
+make all 
+Building file: ../src/kmeans.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/kmeans.o" -I../../kmeans_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/kmeans.d" -MT"src/kmeans.o" -o "src/kmeans.o" "../src/kmeans.c"
+../src/kmeans.c:5:12: warning: 'file_in' defined but not used [-Wunused-variable]
+ static FIL file_in;
+            ^~~~~~~
+../src/kmeans.c:4:15: warning: 'FS_instance' defined but not used [-Wunused-variable]
+ static FATFS  FS_instance;
+               ^~~~~~~~~~~
+../src/kmeans.c:3:14: warning: 'Log_File' defined but not used [-Wunused-variable]
+ static char *Log_File;
+              ^~~~~~~~
+In file included from ../src/kmeans.c:1:0:
+../src/kmeans.h:21:13: warning: 'FILE_NAME' defined but not used [-Wunused-variable]
+ static char FILE_NAME[32] = "testcm.csv";
+             ^~~~~~~~~
+Finished building: ../src/kmeans.c
+ 
+Building target: kmeans.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../kmeans_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "kmeans.elf"  ./src/kmeans.o ./src/timer_c.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: kmeans.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size kmeans.elf  |tee "kmeans.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   1952	    268	   3108	   5328	   14d0	kmeans.elf
+Finished building: kmeans.elf.size
+ 
+21:20:47 **** Auto Build of configuration Debug for project kmeans ****
+make all 
+Building file: ../src/kmeans.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/kmeans.o" -I../../kmeans_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/kmeans.d" -MT"src/kmeans.o" -o "src/kmeans.o" "../src/kmeans.c"
+../src/kmeans.c:5:12: warning: 'file_in' defined but not used [-Wunused-variable]
+ static FIL file_in;
+            ^~~~~~~
+../src/kmeans.c:4:15: warning: 'FS_instance' defined but not used [-Wunused-variable]
+ static FATFS  FS_instance;
+               ^~~~~~~~~~~
+../src/kmeans.c:3:14: warning: 'Log_File' defined but not used [-Wunused-variable]
+ static char *Log_File;
+              ^~~~~~~~
+In file included from ../src/kmeans.c:1:0:
+../src/kmeans.h:21:13: warning: 'FILE_NAME' defined but not used [-Wunused-variable]
+ static char FILE_NAME[32] = "testcm.csv";
+             ^~~~~~~~~
+Finished building: ../src/kmeans.c
+ 
+Building target: kmeans.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../kmeans_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "kmeans.elf"  ./src/kmeans.o ./src/timer_c.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: kmeans.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size kmeans.elf  |tee "kmeans.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  26720	   1308	   3172	  31200	   79e0	kmeans.elf
+Finished building: kmeans.elf.size
+ 
+21:20:48 **** Auto Build of configuration Debug for project kmeans ****
+make all 
+make: Nothing to be done for 'all'.
+21:21:22 **** Auto Build of configuration Debug for project kmeans ****
+make all 
+Building file: ../src/kmeans.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/kmeans.o" -I../../kmeans_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/kmeans.d" -MT"src/kmeans.o" -o "src/kmeans.o" "../src/kmeans.c"
+../src/kmeans.c:5:12: warning: 'file_in' defined but not used [-Wunused-variable]
+ static FIL file_in;
+            ^~~~~~~
+../src/kmeans.c:3:14: warning: 'Log_File' defined but not used [-Wunused-variable]
+ static char *Log_File;
+              ^~~~~~~~
+In file included from ../src/kmeans.c:1:0:
+../src/kmeans.h:21:13: warning: 'FILE_NAME' defined but not used [-Wunused-variable]
+ static char FILE_NAME[32] = "testcm.csv";
+             ^~~~~~~~~
+Finished building: ../src/kmeans.c
+ 
+Building target: kmeans.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../kmeans_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "kmeans.elf"  ./src/kmeans.o ./src/timer_c.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/kmeans.o: In function `main':
+/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/kmeans/Debug/../src/kmeans.c:16: undefined reference to `f_mount'
+makefile:36: recipe for target 'kmeans.elf' failed
+collect2: error: ld returned 1 exit status
+make: *** [kmeans.elf] Error 1
+21:23:41 **** Auto Build of configuration Debug for project kmeans ****
+make all 
+Building file: ../src/kmeans.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/kmeans.o" -I../../kmeans_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/kmeans.d" -MT"src/kmeans.o" -o "src/kmeans.o" "../src/kmeans.c"
+../src/kmeans.c: In function 'main':
+../src/kmeans.c:14:9: warning: unused variable 'Path' [-Wunused-variable]
+  TCHAR *Path = "0:/";
+         ^~~~
+At top level:
+../src/kmeans.c:5:12: warning: 'file_in' defined but not used [-Wunused-variable]
+ static FIL file_in;
+            ^~~~~~~
+../src/kmeans.c:4:15: warning: 'FS_instance' defined but not used [-Wunused-variable]
+ static FATFS  FS_instance;
+               ^~~~~~~~~~~
+../src/kmeans.c:3:14: warning: 'Log_File' defined but not used [-Wunused-variable]
+ static char *Log_File;
+              ^~~~~~~~
+In file included from ../src/kmeans.c:1:0:
+../src/kmeans.h:21:13: warning: 'FILE_NAME' defined but not used [-Wunused-variable]
+ static char FILE_NAME[32] = "testcm.csv";
+             ^~~~~~~~~
+../src/kmeans.c: In function 'main':
+../src/kmeans.c:17:5: warning: 'result' is used uninitialized in this function [-Wuninitialized]
+  if (result != FR_OK) {
+     ^
+Finished building: ../src/kmeans.c
+ 
+Building target: kmeans.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../kmeans_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "kmeans.elf"  ./src/kmeans.o ./src/timer_c.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: kmeans.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size kmeans.elf  |tee "kmeans.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  26820	   1308	   3176	  31304	   7a48	kmeans.elf
+Finished building: kmeans.elf.size
+ 
+21:24:03 **** Auto Build of configuration Debug for project kmeans ****
+make all 
+Building file: ../src/kmeans.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/kmeans.o" -I../../kmeans_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/kmeans.d" -MT"src/kmeans.o" -o "src/kmeans.o" "../src/kmeans.c"
+../src/kmeans.c: In function 'main':
+../src/kmeans.c:15:9: warning: unused variable 'Path' [-Wunused-variable]
+  TCHAR *Path = "0:/";
+         ^~~~
+At top level:
+../src/kmeans.c:6:12: warning: 'file_in' defined but not used [-Wunused-variable]
+ static FIL file_in;
+            ^~~~~~~
+../src/kmeans.c:5:15: warning: 'FS_instance' defined but not used [-Wunused-variable]
+ static FATFS  FS_instance;
+               ^~~~~~~~~~~
+../src/kmeans.c:4:14: warning: 'Log_File' defined but not used [-Wunused-variable]
+ static char *Log_File;
+              ^~~~~~~~
+In file included from ../src/kmeans.c:1:0:
+../src/kmeans.h:21:13: warning: 'FILE_NAME' defined but not used [-Wunused-variable]
+ static char FILE_NAME[32] = "testcm.csv";
+             ^~~~~~~~~
+../src/kmeans.c: In function 'main':
+../src/kmeans.c:18:5: warning: 'result' is used uninitialized in this function [-Wuninitialized]
+  if (result != FR_OK) {
+     ^
+Finished building: ../src/kmeans.c
+ 
+Building target: kmeans.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../kmeans_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "kmeans.elf"  ./src/kmeans.o ./src/timer_c.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: kmeans.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size kmeans.elf  |tee "kmeans.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  26820	   1308	   3176	  31304	   7a48	kmeans.elf
+Finished building: kmeans.elf.size
+ 
+21:24:06 **** Auto Build of configuration Debug for project kmeans ****
+make all 
+Building file: ../src/kmeans.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/kmeans.o" -I../../kmeans_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/kmeans.d" -MT"src/kmeans.o" -o "src/kmeans.o" "../src/kmeans.c"
+../src/kmeans.c:6:12: warning: 'file_in' defined but not used [-Wunused-variable]
+ static FIL file_in;
+            ^~~~~~~
+../src/kmeans.c:4:14: warning: 'Log_File' defined but not used [-Wunused-variable]
+ static char *Log_File;
+              ^~~~~~~~
+In file included from ../src/kmeans.c:1:0:
+../src/kmeans.h:21:13: warning: 'FILE_NAME' defined but not used [-Wunused-variable]
+ static char FILE_NAME[32] = "testcm.csv";
+             ^~~~~~~~~
+Finished building: ../src/kmeans.c
+ 
+Building target: kmeans.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../kmeans_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "kmeans.elf"  ./src/kmeans.o ./src/timer_c.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/kmeans.o: In function `main':
+/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/kmeans/Debug/../src/kmeans.c:17: undefined reference to `f_mount'
+collect2: error: ld returned 1 exit status
+makefile:36: recipe for target 'kmeans.elf' failed
+make: *** [kmeans.elf] Error 1
+21:27:00 **** Clean-only build of configuration Debug for project kmeans ****
+make clean 
+rm -rf  ./src/kmeans.o ./src/timer_c.o  ./src/kmeans.d ./src/timer_c.d  kmeans.elf.size  kmeans.elf
+ 
+21:27:00 **** Auto Build of configuration Debug for project kmeans ****
+make all 
+Building file: ../src/kmeans.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/kmeans.o" -I../../kmeans_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/kmeans.d" -MT"src/kmeans.o" -o "src/kmeans.o" "../src/kmeans.c"
+../src/kmeans.c:6:12: warning: 'file_in' defined but not used [-Wunused-variable]
+ static FIL file_in;
+            ^~~~~~~
+../src/kmeans.c:4:14: warning: 'Log_File' defined but not used [-Wunused-variable]
+ static char *Log_File;
+              ^~~~~~~~
+In file included from ../src/kmeans.c:1:0:
+../src/kmeans.h:21:13: warning: 'FILE_NAME' defined but not used [-Wunused-variable]
+ static char FILE_NAME[32] = "testcm.csv";
+             ^~~~~~~~~
+Finished building: ../src/kmeans.c
+ 
+Building file: ../src/timer_c.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/timer_c.o" -I../../kmeans_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/timer_c.d" -MT"src/timer_c.o" -o "src/timer_c.o" "../src/timer_c.c"
+Finished building: ../src/timer_c.c
+ 
+Building target: kmeans.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../kmeans_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "kmeans.elf"  ./src/kmeans.o ./src/timer_c.o   -l-m -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+/opt/Xilinx/SDK/2018.2/gnu/microblaze/lin/bin/../lib/gcc/microblaze-xilinx-elf/7.2.0/../../../../microblaze-xilinx-elf/bin/ld: cannot find -l-m
+makefile:36: recipe for target 'kmeans.elf' failed
+collect2: error: ld returned 1 exit status
+make: *** [kmeans.elf] Error 1
+21:27:41 **** Clean-only build of configuration Debug for project kmeans ****
+make clean 
+rm -rf  ./src/kmeans.o ./src/timer_c.o  ./src/kmeans.d ./src/timer_c.d  kmeans.elf.size  kmeans.elf
+ 
+21:27:41 **** Auto Build of configuration Debug for project kmeans ****
+make all 
+Building file: ../src/kmeans.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/kmeans.o" -I../../kmeans_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/kmeans.d" -MT"src/kmeans.o" -o "src/kmeans.o" "../src/kmeans.c"
+../src/kmeans.c:6:12: warning: 'file_in' defined but not used [-Wunused-variable]
+ static FIL file_in;
+            ^~~~~~~
+../src/kmeans.c:4:14: warning: 'Log_File' defined but not used [-Wunused-variable]
+ static char *Log_File;
+              ^~~~~~~~
+In file included from ../src/kmeans.c:1:0:
+../src/kmeans.h:21:13: warning: 'FILE_NAME' defined but not used [-Wunused-variable]
+ static char FILE_NAME[32] = "testcm.csv";
+             ^~~~~~~~~
+Finished building: ../src/kmeans.c
+ 
+Building file: ../src/timer_c.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/timer_c.o" -I../../kmeans_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/timer_c.d" -MT"src/timer_c.o" -o "src/timer_c.o" "../src/timer_c.c"
+Finished building: ../src/timer_c.c
+ 
+Building target: kmeans.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../kmeans_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "kmeans.elf"  ./src/kmeans.o ./src/timer_c.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/kmeans.o: In function `main':
+/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/kmeans/Debug/../src/kmeans.c:17: undefined reference to `f_mount'
+makefile:36: recipe for target 'kmeans.elf' failed
+collect2: error: ld returned 1 exit status
+make: *** [kmeans.elf] Error 1
+21:27:57 **** Auto Build of configuration Debug for project kmeans ****
+make all 
+Building file: ../src/kmeans.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/kmeans.o" -I../../kmeans_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/kmeans.d" -MT"src/kmeans.o" -o "src/kmeans.o" "../src/kmeans.c"
+../src/kmeans.c:5:12: warning: 'file_in' defined but not used [-Wunused-variable]
+ static FIL file_in;
+            ^~~~~~~
+../src/kmeans.c:3:14: warning: 'Log_File' defined but not used [-Wunused-variable]
+ static char *Log_File;
+              ^~~~~~~~
+In file included from ../src/kmeans.c:1:0:
+../src/kmeans.h:21:13: warning: 'FILE_NAME' defined but not used [-Wunused-variable]
+ static char FILE_NAME[32] = "testcm.csv";
+             ^~~~~~~~~
+Finished building: ../src/kmeans.c
+ 
+Building target: kmeans.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../kmeans_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "kmeans.elf"  ./src/kmeans.o ./src/timer_c.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/kmeans.o: In function `main':
+makefile:36: recipe for target 'kmeans.elf' failed
+/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/kmeans/Debug/../src/kmeans.c:16: undefined reference to `f_mount'
+collect2: error: ld returned 1 exit status
+make: *** [kmeans.elf] Error 1
+21:28:07 **** Auto Build of configuration Debug for project kmeans ****
+make all 
+Building file: ../src/kmeans.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/kmeans.o" -I../../kmeans_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/kmeans.d" -MT"src/kmeans.o" -o "src/kmeans.o" "../src/kmeans.c"
+../src/kmeans.c:5:12: warning: 'file_in' defined but not used [-Wunused-variable]
+ static FIL file_in;
+            ^~~~~~~
+../src/kmeans.c:3:14: warning: 'Log_File' defined but not used [-Wunused-variable]
+ static char *Log_File;
+              ^~~~~~~~
+In file included from ../src/kmeans.c:1:0:
+../src/kmeans.h:21:13: warning: 'FILE_NAME' defined but not used [-Wunused-variable]
+ static char FILE_NAME[32] = "testcm.csv";
+             ^~~~~~~~~
+Finished building: ../src/kmeans.c
+ 
+Building target: kmeans.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../kmeans_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "kmeans.elf"  ./src/kmeans.o ./src/timer_c.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/kmeans.o: In function `main':
+/home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/kmeans/hw_arm_microblaze/hw_arm_microblaze.sdk/kmeans/Debug/../src/kmeans.c:16: undefined reference to `f_mount'
+collect2: error: ld returned 1 exit status
+makefile:36: recipe for target 'kmeans.elf' failed
+make: *** [kmeans.elf] Error 1
+21:37:48 **** Clean-only build of configuration Debug for project kmeans ****
+make clean 
+rm -rf  ./src/kmeans.o ./src/timer_c.o  ./src/kmeans.d ./src/timer_c.d  kmeans.elf.size  kmeans.elf
+ 
+21:37:48 **** Auto Build of configuration Debug for project kmeans ****
+make all 
+Building file: ../src/kmeans.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/kmeans.o" -I../../kmeans_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/kmeans.d" -MT"src/kmeans.o" -o "src/kmeans.o" "../src/kmeans.c"
+../src/kmeans.c:5:12: warning: 'file_in' defined but not used [-Wunused-variable]
+ static FIL file_in;
+            ^~~~~~~
+../src/kmeans.c:3:14: warning: 'Log_File' defined but not used [-Wunused-variable]
+ static char *Log_File;
+              ^~~~~~~~
+In file included from ../src/kmeans.c:1:0:
+../src/kmeans.h:21:13: warning: 'FILE_NAME' defined but not used [-Wunused-variable]
+ static char FILE_NAME[32] = "testcm.csv";
+             ^~~~~~~~~
+Finished building: ../src/kmeans.c
+ 
+Building file: ../src/timer_c.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/timer_c.o" -I../../kmeans_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/timer_c.d" -MT"src/timer_c.o" -o "src/timer_c.o" "../src/timer_c.c"
+Finished building: ../src/timer_c.c
+ 
+Building target: kmeans.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../kmeans_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "kmeans.elf"  ./src/kmeans.o ./src/timer_c.o   -lm -WI,--start-group,-lxilff,--end-group -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+mb-gcc: error: unrecognized command line option '-WI,--start-group,-lxilff,--end-group'
+make: *** [kmeans.elf] Error 1
+makefile:36: recipe for target 'kmeans.elf' failed
+21:39:43 **** Clean-only build of configuration Debug for project kmeans ****
+make clean 
+rm -rf  ./src/kmeans.o ./src/timer_c.o  ./src/kmeans.d ./src/timer_c.d  kmeans.elf.size  kmeans.elf
+ 
+21:39:43 **** Auto Build of configuration Debug for project kmeans ****
+make all 
+Building file: ../src/kmeans.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/kmeans.o" -I../../kmeans_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/kmeans.d" -MT"src/kmeans.o" -o "src/kmeans.o" "../src/kmeans.c"
+../src/kmeans.c:5:12: warning: 'file_in' defined but not used [-Wunused-variable]
+ static FIL file_in;
+            ^~~~~~~
+../src/kmeans.c:3:14: warning: 'Log_File' defined but not used [-Wunused-variable]
+ static char *Log_File;
+              ^~~~~~~~
+In file included from ../src/kmeans.c:1:0:
+../src/kmeans.h:21:13: warning: 'FILE_NAME' defined but not used [-Wunused-variable]
+ static char FILE_NAME[32] = "testcm.csv";
+             ^~~~~~~~~
+Finished building: ../src/kmeans.c
+ 
+Building file: ../src/timer_c.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/timer_c.o" -I../../kmeans_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/timer_c.d" -MT"src/timer_c.o" -o "src/timer_c.o" "../src/timer_c.c"
+Finished building: ../src/timer_c.c
+ 
+Building target: kmeans.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../kmeans_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "kmeans.elf"  ./src/kmeans.o ./src/timer_c.o   -lm -WI,--start-group,-lxilffs,--end-group -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+mb-gcc: error: unrecognized command line option '-WI,--start-group,-lxilffs,--end-group'
+make: *** [kmeans.elf] Error 1
+makefile:36: recipe for target 'kmeans.elf' failed
+21:42:06 **** Clean-only build of configuration Debug for project kmeans ****
+make clean 
+rm -rf  ./src/kmeans.o ./src/timer_c.o  ./src/kmeans.d ./src/timer_c.d  kmeans.elf.size  kmeans.elf
+ 
+21:42:06 **** Auto Build of configuration Debug for project kmeans ****
+make all 
+Building file: ../src/kmeans.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/kmeans.o" -I../../kmeans_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/kmeans.d" -MT"src/kmeans.o" -o "src/kmeans.o" "../src/kmeans.c"
+../src/kmeans.c:5:12: warning: 'file_in' defined but not used [-Wunused-variable]
+ static FIL file_in;
+            ^~~~~~~
+../src/kmeans.c:3:14: warning: 'Log_File' defined but not used [-Wunused-variable]
+ static char *Log_File;
+              ^~~~~~~~
+In file included from ../src/kmeans.c:1:0:
+../src/kmeans.h:21:13: warning: 'FILE_NAME' defined but not used [-Wunused-variable]
+ static char FILE_NAME[32] = "testcm.csv";
+             ^~~~~~~~~
+Finished building: ../src/kmeans.c
+ 
+Building file: ../src/timer_c.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/timer_c.o" -I../../kmeans_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/timer_c.d" -MT"src/timer_c.o" -o "src/timer_c.o" "../src/timer_c.c"
+Finished building: ../src/timer_c.c
+ 
+Building target: kmeans.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../kmeans_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "kmeans.elf"  ./src/kmeans.o ./src/timer_c.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,lxilffs,--end-group
+/opt/Xilinx/SDK/2018.2/gnu/microblaze/lin/bin/../lib/gcc/microblaze-xilinx-elf/7.2.0/../../../../microblaze-xilinx-elf/bin/ld: cannot find lxilffs: No such file or directory
+makefile:36: recipe for target 'kmeans.elf' failed
+collect2: error: ld returned 1 exit status
+make: *** [kmeans.elf] Error 1
+21:43:04 **** Clean-only build of configuration Debug for project kmeans ****
+make clean 
+rm -rf  ./src/kmeans.o ./src/timer_c.o  ./src/kmeans.d ./src/timer_c.d  kmeans.elf.size  kmeans.elf
+ 
+21:43:05 **** Auto Build of configuration Debug for project kmeans ****
+make all 
+Building file: ../src/kmeans.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/kmeans.o" -I../../kmeans_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/kmeans.d" -MT"src/kmeans.o" -o "src/kmeans.o" "../src/kmeans.c"
+../src/kmeans.c:5:12: warning: 'file_in' defined but not used [-Wunused-variable]
+ static FIL file_in;
+            ^~~~~~~
+../src/kmeans.c:3:14: warning: 'Log_File' defined but not used [-Wunused-variable]
+ static char *Log_File;
+              ^~~~~~~~
+In file included from ../src/kmeans.c:1:0:
+../src/kmeans.h:21:13: warning: 'FILE_NAME' defined but not used [-Wunused-variable]
+ static char FILE_NAME[32] = "testcm.csv";
+             ^~~~~~~~~
+Finished building: ../src/kmeans.c
+ 
+Building file: ../src/timer_c.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/timer_c.o" -I../../kmeans_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/timer_c.d" -MT"src/timer_c.o" -o "src/timer_c.o" "../src/timer_c.c"
+Finished building: ../src/timer_c.c
+ 
+Building target: kmeans.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../kmeans_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "kmeans.elf"  ./src/kmeans.o ./src/timer_c.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,-lxilffs,--end-group
+Finished building target: kmeans.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size kmeans.elf  |tee "kmeans.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  46768	   1352	   5104	  53224	   cfe8	kmeans.elf
+Finished building: kmeans.elf.size
+ 
+21:43:24 **** Incremental Build of configuration Debug for project kmeans ****
+make all 
+make: Nothing to be done for 'all'.
+21:44:00 **** Auto Build of configuration Debug for project kmeans ****
+make all 
+Building file: ../src/kmeans.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/kmeans.o" -I../../kmeans_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/kmeans.d" -MT"src/kmeans.o" -o "src/kmeans.o" "../src/kmeans.c"
+../src/kmeans.c:5:12: warning: 'file_in' defined but not used [-Wunused-variable]
+ static FIL file_in;
+            ^~~~~~~
+../src/kmeans.c:3:14: warning: 'Log_File' defined but not used [-Wunused-variable]
+ static char *Log_File;
+              ^~~~~~~~
+In file included from ../src/kmeans.c:1:0:
+../src/kmeans.h:21:13: warning: 'FILE_NAME' defined but not used [-Wunused-variable]
+ static char FILE_NAME[32] = "testcm.csv";
+             ^~~~~~~~~
+Finished building: ../src/kmeans.c
+ 
+Building target: kmeans.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../kmeans_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "kmeans.elf"  ./src/kmeans.o ./src/timer_c.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,-lxilffs,--end-group
+Finished building target: kmeans.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size kmeans.elf  |tee "kmeans.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23044	    312	   5036	  28392	   6ee8	kmeans.elf
+Finished building: kmeans.elf.size
+ 
+21:44:07 **** Incremental Build of configuration Debug for project kmeans ****
+make all 
+make: Nothing to be done for 'all'.
+21:45:17 **** Build of project kmeans_bsp ****
+make -k all 
+Running Make include in microblaze_0/libsrc/ddrps_v1_0/src
+make -C microblaze_0/libsrc/ddrps_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in microblaze_0/libsrc/qspips_v3_4/src
+make -C microblaze_0/libsrc/qspips_v3_4/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in microblaze_0/libsrc/standalone_v6_7/src
+make -C microblaze_0/libsrc/standalone_v6_7/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in microblaze_0/libsrc/gpiops_v3_3/src
+make -C microblaze_0/libsrc/gpiops_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in microblaze_0/libsrc/emacps_v3_7/src
+make -C microblaze_0/libsrc/emacps_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in microblaze_0/libsrc/uartps_v3_6/src
+make -C microblaze_0/libsrc/uartps_v3_6/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in microblaze_0/libsrc/bram_v4_2/src
+make -C microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in microblaze_0/libsrc/cpu_v2_7/src
+make -C microblaze_0/libsrc/cpu_v2_7/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in microblaze_0/libsrc/sdps_v3_5/src
+make -C microblaze_0/libsrc/sdps_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in microblaze_0/libsrc/usbps_v2_4/src
+make -C microblaze_0/libsrc/usbps_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in microblaze_0/libsrc/tmrctr_v4_4/src
+make -C microblaze_0/libsrc/tmrctr_v4_4/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make libs in microblaze_0/libsrc/ddrps_v1_0/src
+make -C microblaze_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling ddrps
+mb-ar: creating ../../../lib/libxil.a
+Running Make libs in microblaze_0/libsrc/qspips_v3_4/src
+make -C microblaze_0/libsrc/qspips_v3_4/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling qspips
+Running Make libs in microblaze_0/libsrc/standalone_v6_7/src
+make -C microblaze_0/libsrc/standalone_v6_7/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling standalone
+microblaze_sleep.c:74:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+Running Make libs in microblaze_0/libsrc/gpiops_v3_3/src
+make -C microblaze_0/libsrc/gpiops_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling gpiops
+Running Make libs in microblaze_0/libsrc/emacps_v3_7/src
+make -C microblaze_0/libsrc/emacps_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling emacps
+Running Make libs in microblaze_0/libsrc/uartps_v3_6/src
+make -C microblaze_0/libsrc/uartps_v3_6/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling uartps
+Running Make libs in microblaze_0/libsrc/bram_v4_2/src
+make -C microblaze_0/libsrc/bram_v4_2/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling bram
+Running Make libs in microblaze_0/libsrc/cpu_v2_7/src
+make -C microblaze_0/libsrc/cpu_v2_7/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling cpu
+Running Make libs in microblaze_0/libsrc/sdps_v3_5/src
+make -C microblaze_0/libsrc/sdps_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling sdps
+Running Make libs in microblaze_0/libsrc/usbps_v2_4/src
+make -C microblaze_0/libsrc/usbps_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling usbps
+Running Make libs in microblaze_0/libsrc/tmrctr_v4_4/src
+make -C microblaze_0/libsrc/tmrctr_v4_4/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling tmrctr
+Finished building libraries
+21:45:20 **** Build of configuration Debug for project kmeans ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../kmeans_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building file: ../src/platform.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../kmeans_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: kmeans.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../kmeans_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "kmeans.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: kmeans.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size kmeans.elf  |tee "kmeans.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2776	    268	   3108	   6152	   1808	kmeans.elf
+Finished building: kmeans.elf.size
+ 
+21:45:21 **** Auto Build of configuration Debug for project kmeans ****
+make all 
+make: Nothing to be done for 'all'.
+21:45:36 **** Incremental Build of configuration Debug for project kmeans ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../kmeans_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: kmeans.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../kmeans_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "kmeans.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: kmeans.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size kmeans.elf  |tee "kmeans.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2776	    268	   3108	   6152	   1808	kmeans.elf
+Finished building: kmeans.elf.size
+ 
+21:46:17 **** Incremental Build of configuration Debug for project kmeans ****
+make all 
+make: Nothing to be done for 'all'.
+21:47:11 **** Incremental Build of configuration Debug for project kmeans ****
+make all 
+make: Nothing to be done for 'all'.
+21:47:26 **** Auto Build of configuration Debug for project kmeans ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../kmeans_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: kmeans.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../kmeans_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "kmeans.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: kmeans.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size kmeans.elf  |tee "kmeans.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2140	    268	   3112	   5520	   1590	kmeans.elf
+Finished building: kmeans.elf.size
+ 
+21:47:32 **** Incremental Build of configuration Debug for project kmeans ****
+make all 
+make: Nothing to be done for 'all'.
+21:47:59 **** Auto Build of configuration Debug for project kmeans ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../kmeans_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: kmeans.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../kmeans_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "kmeans.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: kmeans.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size kmeans.elf  |tee "kmeans.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2140	    268	   3112	   5520	   1590	kmeans.elf
+Finished building: kmeans.elf.size
+ 
+21:48:05 **** Incremental Build of configuration Debug for project kmeans ****
+make all 
+make: Nothing to be done for 'all'.
+21:48:18 **** Clean-only build of configuration Debug for project kmeans ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/platform.o  ./src/helloworld.d ./src/platform.d  kmeans.elf.size  kmeans.elf
+ 
+21:48:18 **** Auto Build of configuration Debug for project kmeans ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../kmeans_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: kmeans.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../kmeans_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "kmeans.elf"  ./src/helloworld.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: kmeans.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size kmeans.elf  |tee "kmeans.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2140	    268	   3112	   5520	   1590	kmeans.elf
+Finished building: kmeans.elf.size
+ 
+21:48:27 **** Clean-only build of configuration Debug for project kmeans ****
+make clean 
+rm -rf  ./src/helloworld.o  ./src/helloworld.d  kmeans.elf.size  kmeans.elf
+ 
+21:48:28 **** Auto Build of configuration Debug for project kmeans ****
+make all 
+Building file: ../src/kmeans.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/kmeans.o" -I../../kmeans_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/kmeans.d" -MT"src/kmeans.o" -o "src/kmeans.o" "../src/kmeans.c"
+Finished building: ../src/kmeans.c
+ 
+Building target: kmeans.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../kmeans_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "kmeans.elf"  ./src/kmeans.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: kmeans.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size kmeans.elf  |tee "kmeans.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2140	    268	   3112	   5520	   1590	kmeans.elf
+Finished building: kmeans.elf.size
+ 
+21:48:36 **** Auto Build of configuration Debug for project kmeans ****
+make all 
+Building file: ../src/kmeans.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/kmeans.o" -I../../kmeans_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/kmeans.d" -MT"src/kmeans.o" -o "src/kmeans.o" "../src/kmeans.c"
+Finished building: ../src/kmeans.c
+ 
+Building target: kmeans.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../kmeans_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "kmeans.elf"  ./src/kmeans.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: kmeans.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size kmeans.elf  |tee "kmeans.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2140	    268	   3112	   5520	   1590	kmeans.elf
+Finished building: kmeans.elf.size
+ 
+21:48:39 **** Incremental Build of configuration Debug for project kmeans ****
+make all 
+make: Nothing to be done for 'all'.
+21:49:12 **** Incremental Build of configuration Debug for project kmeans ****
+make all 
+make: Nothing to be done for 'all'.
+21:49:54 **** Auto Build of configuration Debug for project kmeans ****
+make all 
+Building file: ../src/kmeans.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/kmeans.o" -I../../kmeans_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/kmeans.d" -MT"src/kmeans.o" -o "src/kmeans.o" "../src/kmeans.c"
+Finished building: ../src/kmeans.c
+ 
+Building target: kmeans.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../kmeans_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "kmeans.elf"  ./src/kmeans.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: kmeans.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size kmeans.elf  |tee "kmeans.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2132	    268	   3112	   5512	   1588	kmeans.elf
+Finished building: kmeans.elf.size
+ 
+21:49:58 **** Incremental Build of configuration Debug for project kmeans ****
+make all 
+make: Nothing to be done for 'all'.
+21:50:19 **** Auto Build of configuration Debug for project kmeans ****
+make all 
+make: Nothing to be done for 'all'.
+21:50:29 **** Auto Build of configuration Debug for project kmeans ****
+make all 
+make: Nothing to be done for 'all'.
+21:50:44 **** Auto Build of configuration Debug for project kmeans ****
+make all 
+make: Nothing to be done for 'all'.
+21:50:59 **** Auto Build of configuration Debug for project kmeans ****
+make all 
+Building file: ../src/kmeans.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/kmeans.o" -I../../kmeans_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/kmeans.d" -MT"src/kmeans.o" -o "src/kmeans.o" "../src/kmeans.c"
+In file included from ../src/kmeans.c:1:0:
+../src/kmeans.h:21:13: warning: 'FILE_NAME' defined but not used [-Wunused-variable]
+ static char FILE_NAME[32] = "testcm.csv";
+             ^~~~~~~~~
+Finished building: ../src/kmeans.c
+ 
+Building target: kmeans.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../kmeans_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "kmeans.elf"  ./src/kmeans.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: kmeans.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size kmeans.elf  |tee "kmeans.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2132	    268	   3112	   5512	   1588	kmeans.elf
+Finished building: kmeans.elf.size
+ 
+21:51:07 **** Incremental Build of configuration Debug for project kmeans ****
+make all 
+make: Nothing to be done for 'all'.
+21:51:35 **** Auto Build of project kmeans_bsp ****
+make -k all 
+Running Make include in microblaze_0/libsrc/ddrps_v1_0/src
+make -C microblaze_0/libsrc/ddrps_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in microblaze_0/libsrc/qspips_v3_4/src
+make -C microblaze_0/libsrc/qspips_v3_4/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in microblaze_0/libsrc/standalone_v6_7/src
+make -C microblaze_0/libsrc/standalone_v6_7/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in microblaze_0/libsrc/gpiops_v3_3/src
+make -C microblaze_0/libsrc/gpiops_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in microblaze_0/libsrc/emacps_v3_7/src
+make -C microblaze_0/libsrc/emacps_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in microblaze_0/libsrc/uartps_v3_6/src
+make -C microblaze_0/libsrc/uartps_v3_6/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in microblaze_0/libsrc/xilffs_v3_9/src
+make -C microblaze_0/libsrc/xilffs_v3_9/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in microblaze_0/libsrc/bram_v4_2/src
+make -C microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in microblaze_0/libsrc/cpu_v2_7/src
+make -C microblaze_0/libsrc/cpu_v2_7/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in microblaze_0/libsrc/sdps_v3_5/src
+make -C microblaze_0/libsrc/sdps_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in microblaze_0/libsrc/usbps_v2_4/src
+make -C microblaze_0/libsrc/usbps_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in microblaze_0/libsrc/tmrctr_v4_4/src
+make -C microblaze_0/libsrc/tmrctr_v4_4/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make libs in microblaze_0/libsrc/ddrps_v1_0/src
+make -C microblaze_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling ddrps
+mb-ar: creating ../../../lib/libxil.a
+Running Make libs in microblaze_0/libsrc/qspips_v3_4/src
+make -C microblaze_0/libsrc/qspips_v3_4/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling qspips
+Running Make libs in microblaze_0/libsrc/standalone_v6_7/src
+make -C microblaze_0/libsrc/standalone_v6_7/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling standalone
+microblaze_sleep.c:74:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+Running Make libs in microblaze_0/libsrc/gpiops_v3_3/src
+make -C microblaze_0/libsrc/gpiops_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling gpiops
+Running Make libs in microblaze_0/libsrc/emacps_v3_7/src
+make -C microblaze_0/libsrc/emacps_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling emacps
+Running Make libs in microblaze_0/libsrc/uartps_v3_6/src
+make -C microblaze_0/libsrc/uartps_v3_6/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling uartps
+Running Make libs in microblaze_0/libsrc/xilffs_v3_9/src
+make -C microblaze_0/libsrc/xilffs_v3_9/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling XilFFs Library
+Running Make libs in microblaze_0/libsrc/bram_v4_2/src
+make -C microblaze_0/libsrc/bram_v4_2/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling bram
+Running Make libs in microblaze_0/libsrc/cpu_v2_7/src
+make -C microblaze_0/libsrc/cpu_v2_7/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling cpu
+Running Make libs in microblaze_0/libsrc/sdps_v3_5/src
+make -C microblaze_0/libsrc/sdps_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling sdps
+Running Make libs in microblaze_0/libsrc/usbps_v2_4/src
+make -C microblaze_0/libsrc/usbps_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling usbps
+Running Make libs in microblaze_0/libsrc/tmrctr_v4_4/src
+make -C microblaze_0/libsrc/tmrctr_v4_4/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling tmrctr
+Finished building libraries
+21:51:38 **** Clean-only build of configuration Debug for project kmeans ****
+make clean 
+rm -rf  ./src/kmeans.o  ./src/kmeans.d  kmeans.elf.size  kmeans.elf
+ 
+21:51:38 **** Auto Build of configuration Debug for project kmeans ****
+make all 
+Building file: ../src/kmeans.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/kmeans.o" -I../../kmeans_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/kmeans.d" -MT"src/kmeans.o" -o "src/kmeans.o" "../src/kmeans.c"
+In file included from ../src/kmeans.c:1:0:
+../src/kmeans.h:21:13: warning: 'FILE_NAME' defined but not used [-Wunused-variable]
+ static char FILE_NAME[32] = "testcm.csv";
+             ^~~~~~~~~
+Finished building: ../src/kmeans.c
+ 
+Building target: kmeans.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../kmeans_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "kmeans.elf"  ./src/kmeans.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: kmeans.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size kmeans.elf  |tee "kmeans.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2132	    268	   3112	   5512	   1588	kmeans.elf
+Finished building: kmeans.elf.size
+ 
+21:51:57 **** Auto Build of configuration Debug for project kmeans ****
+make all 
+Building file: ../src/kmeans.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/kmeans.o" -I../../kmeans_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/kmeans.d" -MT"src/kmeans.o" -o "src/kmeans.o" "../src/kmeans.c"
+In file included from ../src/kmeans.c:1:0:
+../src/kmeans.h:10:10: fatal error: timer_c.h: No such file or directory
+ #include "timer_c.h" //rightclick c/c++ build settings -> settings -> libraries -> add "-m"
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/kmeans.o] Error 1
+src/subdir.mk:21: recipe for target 'src/kmeans.o' failed
+21:52:12 **** Auto Build of configuration Debug for project kmeans ****
+make all 
+Building file: ../src/kmeans.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/kmeans.o" -I../../kmeans_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/kmeans.d" -MT"src/kmeans.o" -o "src/kmeans.o" "../src/kmeans.c"
+In file included from ../src/kmeans.c:1:0:
+../src/kmeans.h:21:13: warning: 'FILE_NAME' defined but not used [-Wunused-variable]
+ static char FILE_NAME[32] = "testcm.csv";
+             ^~~~~~~~~
+Finished building: ../src/kmeans.c
+ 
+Building target: kmeans.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../kmeans_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "kmeans.elf"  ./src/kmeans.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: kmeans.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size kmeans.elf  |tee "kmeans.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2132	    268	   3112	   5512	   1588	kmeans.elf
+Finished building: kmeans.elf.size
+ 
+21:52:34 **** Auto Build of configuration Debug for project kmeans ****
+make all 
+Building file: ../src/kmeans.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/kmeans.o" -I../../kmeans_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/kmeans.d" -MT"src/kmeans.o" -o "src/kmeans.o" "../src/kmeans.c"
+../src/kmeans.c: In function 'main':
+../src/kmeans.c:10:20: error: 'FS_instance' undeclared (first use in this function)
+  result = f_mount(&FS_instance,Path, 0);
+                    ^~~~~~~~~~~
+../src/kmeans.c:10:20: note: each undeclared identifier is reported only once for each function it appears in
+In file included from ../src/kmeans.c:1:0:
+At top level:
+../src/kmeans.h:21:13: warning: 'FILE_NAME' defined but not used [-Wunused-variable]
+ static char FILE_NAME[32] = "testcm.csv";
+src/subdir.mk:21: recipe for target 'src/kmeans.o' failed
+             ^~~~~~~~~
+make: *** [src/kmeans.o] Error 1
+21:54:34 **** Clean-only build of configuration Debug for project kmeans ****
+make clean 
+rm -rf  ./src/kmeans.o  ./src/kmeans.d  kmeans.elf.size  kmeans.elf
+ 
+21:54:34 **** Auto Build of configuration Debug for project kmeans ****
+make all 
+Building file: ../src/kmeans.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/kmeans.o" -I../../kmeans_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/kmeans.d" -MT"src/kmeans.o" -o "src/kmeans.o" "../src/kmeans.c"
+../src/kmeans.c: In function 'main':
+../src/kmeans.c:10:20: error: 'FS_instance' undeclared (first use in this function)
+  result = f_mount(&FS_instance,Path, 0);
+                    ^~~~~~~~~~~
+../src/kmeans.c:10:20: note: each undeclared identifier is reported only once for each function it appears in
+In file included from ../src/kmeans.c:1:0:
+src/subdir.mk:21: recipe for target 'src/kmeans.o' failed
+At top level:
+../src/kmeans.h:21:13: warning: 'FILE_NAME' defined but not used [-Wunused-variable]
+ static char FILE_NAME[32] = "testcm.csv";
+             ^~~~~~~~~
+make: *** [src/kmeans.o] Error 1
+21:55:22 **** Auto Build of configuration Debug for project kmeans ****
+make all 
+Building file: ../src/kmeans.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/kmeans.o" -I../../kmeans_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/kmeans.d" -MT"src/kmeans.o" -o "src/kmeans.o" "../src/kmeans.c"
+../src/kmeans.c:5:12: warning: 'file_in' defined but not used [-Wunused-variable]
+ static FIL file_in;
+            ^~~~~~~
+../src/kmeans.c:3:14: warning: 'Log_File' defined but not used [-Wunused-variable]
+ static char *Log_File;
+              ^~~~~~~~
+In file included from ../src/kmeans.c:1:0:
+../src/kmeans.h:21:13: warning: 'FILE_NAME' defined but not used [-Wunused-variable]
+ static char FILE_NAME[32] = "testcm.csv";
+             ^~~~~~~~~
+Finished building: ../src/kmeans.c
+ 
+Building target: kmeans.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../kmeans_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "kmeans.elf"  ./src/kmeans.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,-lxilffs,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: kmeans.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size kmeans.elf  |tee "kmeans.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  46844	   1352	   5108	  53304	   d038	kmeans.elf
+Finished building: kmeans.elf.size
+ 
+21:55:29 **** Incremental Build of configuration Debug for project kmeans ****
+make all 
+make: Nothing to be done for 'all'.
+21:55:57 **** Auto Build of configuration Debug for project kmeans ****
+make all 
+make: Nothing to be done for 'all'.
+21:56:14 **** Auto Build of configuration Debug for project kmeans ****
+make all 
+make: Nothing to be done for 'all'.
+21:56:22 **** Clean-only build of configuration Debug for project kmeans ****
+make clean 
+rm -rf  ./src/kmeans.o  ./src/kmeans.d  kmeans.elf.size  kmeans.elf
+ 
+21:56:22 **** Auto Build of configuration Debug for project kmeans ****
+make all 
+Building file: ../src/kmeans.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/kmeans.o" -I../../kmeans_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/kmeans.d" -MT"src/kmeans.o" -o "src/kmeans.o" "../src/kmeans.c"
+../src/kmeans.c:5:12: warning: 'file_in' defined but not used [-Wunused-variable]
+ static FIL file_in;
+            ^~~~~~~
+../src/kmeans.c:3:14: warning: 'Log_File' defined but not used [-Wunused-variable]
+ static char *Log_File;
+              ^~~~~~~~
+In file included from ../src/kmeans.c:1:0:
+../src/kmeans.h:21:13: warning: 'FILE_NAME' defined but not used [-Wunused-variable]
+ static char FILE_NAME[32] = "testcm.csv";
+             ^~~~~~~~~
+Finished building: ../src/kmeans.c
+ 
+Building file: ../src/timer_c.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/timer_c.o" -I../../kmeans_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/timer_c.d" -MT"src/timer_c.o" -o "src/timer_c.o" "../src/timer_c.c"
+Finished building: ../src/timer_c.c
+ 
+Building target: kmeans.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../kmeans_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "kmeans.elf"  ./src/kmeans.o ./src/timer_c.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,-lxilffs,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: kmeans.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size kmeans.elf  |tee "kmeans.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  46844	   1352	   5108	  53304	   d038	kmeans.elf
+Finished building: kmeans.elf.size
+ 
+21:56:31 **** Auto Build of configuration Debug for project kmeans ****
+make all 
+Building file: ../src/timer_c.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/timer_c.o" -I../../kmeans_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/timer_c.d" -MT"src/timer_c.o" -o "src/timer_c.o" "../src/timer_c.c"
+../src/timer_c.c:3:1: error: unknown type name 'uint32_t'
+ uint32_t start_time(XTmrCtr* timer){
+ ^~~~~~~~
+../src/timer_c.c:3:21: error: unknown type name 'XTmrCtr'
+ uint32_t start_time(XTmrCtr* timer){
+                     ^~~~~~~
+../src/timer_c.c:12:16: error: unknown type name 'XTmrCtr'
+ float get_time(XTmrCtr* timer, uint32_t startTime){
+                ^~~~~~~
+../src/timer_c.c:12:32: error: unknown type name 'uint32_t'
+ float get_time(XTmrCtr* timer, uint32_t startTime){
+                                ^~~~~~~~
+src/subdir.mk:24: recipe for target 'src/timer_c.o' failed
+make: *** [src/timer_c.o] Error 1
+21:56:39 **** Auto Build of configuration Debug for project kmeans ****
+make all 
+Building file: ../src/timer_c.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/timer_c.o" -I../../kmeans_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/timer_c.d" -MT"src/timer_c.o" -o "src/timer_c.o" "../src/timer_c.c"
+Finished building: ../src/timer_c.c
+ 
+Building target: kmeans.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../kmeans_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "kmeans.elf"  ./src/kmeans.o ./src/timer_c.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,-lxilffs,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: kmeans.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size kmeans.elf  |tee "kmeans.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  46844	   1352	   5108	  53304	   d038	kmeans.elf
+Finished building: kmeans.elf.size
+ 
+21:56:55 **** Auto Build of configuration Debug for project kmeans ****
+make all 
+Building file: ../src/kmeans.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/kmeans.o" -I../../kmeans_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/kmeans.d" -MT"src/kmeans.o" -o "src/kmeans.o" "../src/kmeans.c"
+../src/kmeans.c:5:12: warning: 'file_in' defined but not used [-Wunused-variable]
+ static FIL file_in;
+            ^~~~~~~
+../src/kmeans.c:3:14: warning: 'Log_File' defined but not used [-Wunused-variable]
+ static char *Log_File;
+              ^~~~~~~~
+In file included from ../src/kmeans.c:1:0:
+../src/kmeans.h:21:13: warning: 'FILE_NAME' defined but not used [-Wunused-variable]
+ static char FILE_NAME[32] = "testcm.csv";
+             ^~~~~~~~~
+Finished building: ../src/kmeans.c
+ 
+Building target: kmeans.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../kmeans_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "kmeans.elf"  ./src/kmeans.o ./src/timer_c.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,-lxilffs,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: kmeans.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size kmeans.elf  |tee "kmeans.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  46844	   1352	   5108	  53304	   d038	kmeans.elf
+Finished building: kmeans.elf.size
+ 
+21:57:06 **** Incremental Build of configuration Debug for project kmeans ****
+make all 
+make: Nothing to be done for 'all'.
+21:57:56 **** Incremental Build of configuration Debug for project kmeans ****
+make all 
+make: Nothing to be done for 'all'.
+21:58:08 **** Incremental Build of configuration Debug for project kmeans ****
+make all 
+make: Nothing to be done for 'all'.
+21:58:24 **** Auto Build of configuration Debug for project kmeans ****
+make all 
+Building file: ../src/kmeans.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/kmeans.o" -I../../kmeans_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/kmeans.d" -MT"src/kmeans.o" -o "src/kmeans.o" "../src/kmeans.c"
+../src/kmeans.c:5:12: warning: 'file_in' defined but not used [-Wunused-variable]
+ static FIL file_in;
+            ^~~~~~~
+../src/kmeans.c:3:14: warning: 'Log_File' defined but not used [-Wunused-variable]
+ static char *Log_File;
+              ^~~~~~~~
+In file included from ../src/kmeans.c:1:0:
+../src/kmeans.h:21:13: warning: 'FILE_NAME' defined but not used [-Wunused-variable]
+ static char FILE_NAME[32] = "testc.csv";
+             ^~~~~~~~~
+Finished building: ../src/kmeans.c
+ 
+Building target: kmeans.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../kmeans_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "kmeans.elf"  ./src/kmeans.o ./src/timer_c.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,-lxilffs,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: kmeans.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size kmeans.elf  |tee "kmeans.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  46844	   1352	   5108	  53304	   d038	kmeans.elf
+Finished building: kmeans.elf.size
+ 
+21:58:36 **** Auto Build of configuration Debug for project kmeans ****
+make all 
+Building file: ../src/kmeans.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/kmeans.o" -I../../kmeans_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/kmeans.d" -MT"src/kmeans.o" -o "src/kmeans.o" "../src/kmeans.c"
+../src/kmeans.c:5:12: warning: 'file_in' defined but not used [-Wunused-variable]
+ static FIL file_in;
+            ^~~~~~~
+../src/kmeans.c:3:14: warning: 'Log_File' defined but not used [-Wunused-variable]
+ static char *Log_File;
+              ^~~~~~~~
+In file included from ../src/kmeans.c:1:0:
+../src/kmeans.h:21:13: warning: 'FILE_NAME' defined but not used [-Wunused-variable]
+ static char FILE_NAME[32] = "testc.csv";
+             ^~~~~~~~~
+Finished building: ../src/kmeans.c
+ 
+Building target: kmeans.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../kmeans_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "kmeans.elf"  ./src/kmeans.o ./src/timer_c.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,-lxilffs,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: kmeans.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size kmeans.elf  |tee "kmeans.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  46844	   1352	   5108	  53304	   d038	kmeans.elf
+Finished building: kmeans.elf.size
+ 
+21:59:22 **** Auto Build of configuration Debug for project kmeans ****
+make all 
+Building file: ../src/kmeans.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/kmeans.o" -I../../kmeans_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/kmeans.d" -MT"src/kmeans.o" -o "src/kmeans.o" "../src/kmeans.c"
+../src/kmeans.c: In function 'read_dataset':
+../src/kmeans.c:90:31: warning: pointer targets in passing argument 4 of 'f_read' differ in signedness [-Wpointer-sign]
+  f_read(&file_in, buf, CHUNK, &n_read);
+                               ^
+In file included from ../src/kmeans.h:4:0,
+                 from ../src/kmeans.c:1:
+../../kmeans_bsp/microblaze_0/include/ff.h:223:9: note: expected 'UINT * {aka unsigned int *}' but argument is of type 'int *'
+ FRESULT f_read (FIL* fp, void* buff, UINT btr, UINT* br);   /* Read data from a file */
+         ^~~~~~
+../src/kmeans.c:120:35: warning: pointer targets in passing argument 4 of 'f_read' differ in signedness [-Wpointer-sign]
+      f_read(&file_in, buf, CHUNK, &n_read);
+                                   ^
+In file included from ../src/kmeans.h:4:0,
+                 from ../src/kmeans.c:1:
+../../kmeans_bsp/microblaze_0/include/ff.h:223:9: note: expected 'UINT * {aka unsigned int *}' but argument is of type 'int *'
+ FRESULT f_read (FIL* fp, void* buff, UINT btr, UINT* br);   /* Read data from a file */
+         ^~~~~~
+Finished building: ../src/kmeans.c
+ 
+Building target: kmeans.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../kmeans_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "kmeans.elf"  ./src/kmeans.o ./src/timer_c.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,-lxilffs,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: kmeans.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size kmeans.elf  |tee "kmeans.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 154288	   1532	  30116	 185936	  2d650	kmeans.elf
+Finished building: kmeans.elf.size
+ 
+21:59:31 **** Incremental Build of configuration Debug for project kmeans ****
+make all 
+make: Nothing to be done for 'all'.
+22:04:51 **** Auto Build of configuration Debug for project kmeans ****
+make all 
+Building file: ../src/kmeans.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/kmeans.o" -I../../kmeans_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/kmeans.d" -MT"src/kmeans.o" -o "src/kmeans.o" "../src/kmeans.c"
+../src/kmeans.c: In function 'read_dataset':
+../src/kmeans.c:90:31: warning: pointer targets in passing argument 4 of 'f_read' differ in signedness [-Wpointer-sign]
+  f_read(&file_in, buf, CHUNK, &n_read);
+                               ^
+In file included from ../src/kmeans.h:4:0,
+                 from ../src/kmeans.c:1:
+../../kmeans_bsp/microblaze_0/include/ff.h:223:9: note: expected 'UINT * {aka unsigned int *}' but argument is of type 'int *'
+ FRESULT f_read (FIL* fp, void* buff, UINT btr, UINT* br);   /* Read data from a file */
+         ^~~~~~
+../src/kmeans.c:120:35: warning: pointer targets in passing argument 4 of 'f_read' differ in signedness [-Wpointer-sign]
+      f_read(&file_in, buf, CHUNK, &n_read);
+                                   ^
+In file included from ../src/kmeans.h:4:0,
+                 from ../src/kmeans.c:1:
+../../kmeans_bsp/microblaze_0/include/ff.h:223:9: note: expected 'UINT * {aka unsigned int *}' but argument is of type 'int *'
+ FRESULT f_read (FIL* fp, void* buff, UINT btr, UINT* br);   /* Read data from a file */
+         ^~~~~~
+Finished building: ../src/kmeans.c
+ 
+Building file: ../src/timer_c.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/timer_c.o" -I../../kmeans_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/timer_c.d" -MT"src/timer_c.o" -o "src/timer_c.o" "../src/timer_c.c"
+Finished building: ../src/timer_c.c
+ 
+Building target: kmeans.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../kmeans_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "kmeans.elf"  ./src/kmeans.o ./src/timer_c.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,-lxilffs,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: kmeans.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size kmeans.elf  |tee "kmeans.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 154288	   1532	  30116	 185936	  2d650	kmeans.elf
+Finished building: kmeans.elf.size
+ 
+22:05:16 **** Auto Build of configuration Debug for project kmeans ****
+make all 
+Building file: ../src/timer_c.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/timer_c.o" -I../../kmeans_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/timer_c.d" -MT"src/timer_c.o" -o "src/timer_c.o" "../src/timer_c.c"
+../src/timer_c.c: In function 'get_time':
+../src/timer_c.c:18:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  printf("%f int \n",interval);
+  ^~~~~~
+../src/timer_c.c:18:2: warning: incompatible implicit declaration of built-in function 'printf'
+../src/timer_c.c:18:2: note: include '<stdio.h>' or provide a declaration of 'printf'
+Finished building: ../src/timer_c.c
+ 
+Building target: kmeans.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../kmeans_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "kmeans.elf"  ./src/kmeans.o ./src/timer_c.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,-lxilffs,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: kmeans.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size kmeans.elf  |tee "kmeans.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 154352	   1532	  30116	 186000	  2d690	kmeans.elf
+Finished building: kmeans.elf.size
+ 
+22:05:36 **** Incremental Build of configuration Debug for project kmeans ****
+make all 
+make: Nothing to be done for 'all'.
+22:06:03 **** Incremental Build of configuration Debug for project kmeans ****
+make all 
+make: Nothing to be done for 'all'.
+22:06:34 **** Incremental Build of configuration Debug for project kmeans ****
+make all 
+make: Nothing to be done for 'all'.
+22:12:19 **** Auto Build of configuration Debug for project kmeans ****
+make all 
+Building file: ../src/kmeans.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/kmeans.o" -I../../kmeans_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/kmeans.d" -MT"src/kmeans.o" -o "src/kmeans.o" "../src/kmeans.c"
+../src/kmeans.c: In function 'read_dataset':
+../src/kmeans.c:90:31: warning: pointer targets in passing argument 4 of 'f_read' differ in signedness [-Wpointer-sign]
+  f_read(&file_in, buf, CHUNK, &n_read);
+                               ^
+In file included from ../src/kmeans.h:4:0,
+                 from ../src/kmeans.c:1:
+../../kmeans_bsp/microblaze_0/include/ff.h:223:9: note: expected 'UINT * {aka unsigned int *}' but argument is of type 'int *'
+ FRESULT f_read (FIL* fp, void* buff, UINT btr, UINT* br);   /* Read data from a file */
+         ^~~~~~
+../src/kmeans.c:120:35: warning: pointer targets in passing argument 4 of 'f_read' differ in signedness [-Wpointer-sign]
+      f_read(&file_in, buf, CHUNK, &n_read);
+                                   ^
+In file included from ../src/kmeans.h:4:0,
+                 from ../src/kmeans.c:1:
+../../kmeans_bsp/microblaze_0/include/ff.h:223:9: note: expected 'UINT * {aka unsigned int *}' but argument is of type 'int *'
+ FRESULT f_read (FIL* fp, void* buff, UINT btr, UINT* br);   /* Read data from a file */
+         ^~~~~~
+Finished building: ../src/kmeans.c
+ 
+Building target: kmeans.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../kmeans_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "kmeans.elf"  ./src/kmeans.o ./src/timer_c.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,-lxilffs,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: kmeans.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size kmeans.elf  |tee "kmeans.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 154376	   1532	  30116	 186024	  2d6a8	kmeans.elf
+Finished building: kmeans.elf.size
+ 
+22:12:23 **** Auto Build of configuration Debug for project kmeans ****
+make all 
+Building file: ../src/kmeans.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/kmeans.o" -I../../kmeans_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/kmeans.d" -MT"src/kmeans.o" -o "src/kmeans.o" "../src/kmeans.c"
+../src/kmeans.c: In function 'read_dataset':
+../src/kmeans.c:90:31: warning: pointer targets in passing argument 4 of 'f_read' differ in signedness [-Wpointer-sign]
+  f_read(&file_in, buf, CHUNK, &n_read);
+                               ^
+In file included from ../src/kmeans.h:4:0,
+                 from ../src/kmeans.c:1:
+../../kmeans_bsp/microblaze_0/include/ff.h:223:9: note: expected 'UINT * {aka unsigned int *}' but argument is of type 'int *'
+ FRESULT f_read (FIL* fp, void* buff, UINT btr, UINT* br);   /* Read data from a file */
+         ^~~~~~
+../src/kmeans.c:120:35: warning: pointer targets in passing argument 4 of 'f_read' differ in signedness [-Wpointer-sign]
+      f_read(&file_in, buf, CHUNK, &n_read);
+                                   ^
+In file included from ../src/kmeans.h:4:0,
+                 from ../src/kmeans.c:1:
+../../kmeans_bsp/microblaze_0/include/ff.h:223:9: note: expected 'UINT * {aka unsigned int *}' but argument is of type 'int *'
+ FRESULT f_read (FIL* fp, void* buff, UINT btr, UINT* br);   /* Read data from a file */
+         ^~~~~~
+Finished building: ../src/kmeans.c
+ 
+Building target: kmeans.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../kmeans_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "kmeans.elf"  ./src/kmeans.o ./src/timer_c.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,-lxilffs,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: kmeans.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size kmeans.elf  |tee "kmeans.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 154376	   1532	  30116	 186024	  2d6a8	kmeans.elf
+Finished building: kmeans.elf.size
+ 
+22:12:59 **** Incremental Build of configuration Debug for project kmeans ****
+make all 
+make: Nothing to be done for 'all'.
+22:15:10 **** Auto Build of configuration Debug for project kmeans ****
+make all 
+Building file: ../src/kmeans.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/kmeans.o" -I../../kmeans_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/kmeans.d" -MT"src/kmeans.o" -o "src/kmeans.o" "../src/kmeans.c"
+../src/kmeans.c: In function 'read_dataset':
+../src/kmeans.c:90:31: warning: pointer targets in passing argument 4 of 'f_read' differ in signedness [-Wpointer-sign]
+  f_read(&file_in, buf, CHUNK, &n_read);
+                               ^
+In file included from ../src/kmeans.h:4:0,
+                 from ../src/kmeans.c:1:
+../../kmeans_bsp/microblaze_0/include/ff.h:223:9: note: expected 'UINT * {aka unsigned int *}' but argument is of type 'int *'
+ FRESULT f_read (FIL* fp, void* buff, UINT btr, UINT* br);   /* Read data from a file */
+         ^~~~~~
+../src/kmeans.c:120:35: warning: pointer targets in passing argument 4 of 'f_read' differ in signedness [-Wpointer-sign]
+      f_read(&file_in, buf, CHUNK, &n_read);
+                                   ^
+In file included from ../src/kmeans.h:4:0,
+                 from ../src/kmeans.c:1:
+../../kmeans_bsp/microblaze_0/include/ff.h:223:9: note: expected 'UINT * {aka unsigned int *}' but argument is of type 'int *'
+ FRESULT f_read (FIL* fp, void* buff, UINT btr, UINT* br);   /* Read data from a file */
+         ^~~~~~
+Finished building: ../src/kmeans.c
+ 
+Building target: kmeans.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../kmeans_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "kmeans.elf"  ./src/kmeans.o ./src/timer_c.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,-lxilffs,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: kmeans.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size kmeans.elf  |tee "kmeans.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 155532	   1532	  30120	 187184	  2db30	kmeans.elf
+Finished building: kmeans.elf.size
+ 
+22:15:28 **** Incremental Build of configuration Debug for project kmeans ****
+make all 
+make: Nothing to be done for 'all'.
+22:17:11 **** Auto Build of configuration Debug for project kmeans ****
+make all 
+Building file: ../src/kmeans.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/kmeans.o" -I../../kmeans_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/kmeans.d" -MT"src/kmeans.o" -o "src/kmeans.o" "../src/kmeans.c"
+../src/kmeans.c: In function 'read_dataset':
+../src/kmeans.c:90:31: warning: pointer targets in passing argument 4 of 'f_read' differ in signedness [-Wpointer-sign]
+  f_read(&file_in, buf, CHUNK, &n_read);
+                               ^
+In file included from ../src/kmeans.h:4:0,
+                 from ../src/kmeans.c:1:
+../../kmeans_bsp/microblaze_0/include/ff.h:223:9: note: expected 'UINT * {aka unsigned int *}' but argument is of type 'int *'
+ FRESULT f_read (FIL* fp, void* buff, UINT btr, UINT* br);   /* Read data from a file */
+         ^~~~~~
+../src/kmeans.c:120:35: warning: pointer targets in passing argument 4 of 'f_read' differ in signedness [-Wpointer-sign]
+      f_read(&file_in, buf, CHUNK, &n_read);
+                                   ^
+In file included from ../src/kmeans.h:4:0,
+                 from ../src/kmeans.c:1:
+../../kmeans_bsp/microblaze_0/include/ff.h:223:9: note: expected 'UINT * {aka unsigned int *}' but argument is of type 'int *'
+ FRESULT f_read (FIL* fp, void* buff, UINT btr, UINT* br);   /* Read data from a file */
+         ^~~~~~
+Finished building: ../src/kmeans.c
+ 
+Building target: kmeans.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../kmeans_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "kmeans.elf"  ./src/kmeans.o ./src/timer_c.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,-lxilffs,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: kmeans.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size kmeans.elf  |tee "kmeans.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 155380	   1532	   6000	 162912	  27c60	kmeans.elf
+Finished building: kmeans.elf.size
+ 
+22:17:59 **** Incremental Build of configuration Debug for project kmeans ****
+make all 
+make: Nothing to be done for 'all'.
+22:19:01 **** Incremental Build of configuration Debug for project kmeans ****
+make all 
+make: Nothing to be done for 'all'.
+22:19:20 **** Auto Build of configuration Debug for project kmeans ****
+make all 
+Building file: ../src/kmeans.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/kmeans.o" -I../../kmeans_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/kmeans.d" -MT"src/kmeans.o" -o "src/kmeans.o" "../src/kmeans.c"
+../src/kmeans.c: In function 'read_dataset':
+../src/kmeans.c:90:31: warning: pointer targets in passing argument 4 of 'f_read' differ in signedness [-Wpointer-sign]
+  f_read(&file_in, buf, CHUNK, &n_read);
+                               ^
+In file included from ../src/kmeans.h:4:0,
+                 from ../src/kmeans.c:1:
+../../kmeans_bsp/microblaze_0/include/ff.h:223:9: note: expected 'UINT * {aka unsigned int *}' but argument is of type 'int *'
+ FRESULT f_read (FIL* fp, void* buff, UINT btr, UINT* br);   /* Read data from a file */
+         ^~~~~~
+../src/kmeans.c:120:35: warning: pointer targets in passing argument 4 of 'f_read' differ in signedness [-Wpointer-sign]
+      f_read(&file_in, buf, CHUNK, &n_read);
+                                   ^
+In file included from ../src/kmeans.h:4:0,
+                 from ../src/kmeans.c:1:
+../../kmeans_bsp/microblaze_0/include/ff.h:223:9: note: expected 'UINT * {aka unsigned int *}' but argument is of type 'int *'
+ FRESULT f_read (FIL* fp, void* buff, UINT btr, UINT* br);   /* Read data from a file */
+         ^~~~~~
+Finished building: ../src/kmeans.c
+ 
+Building target: kmeans.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../kmeans_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "kmeans.elf"  ./src/kmeans.o ./src/timer_c.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,-lxilffs,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: kmeans.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size kmeans.elf  |tee "kmeans.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 154244	   1532	   6000	 161776	  277f0	kmeans.elf
+Finished building: kmeans.elf.size
+ 
+22:19:25 **** Incremental Build of configuration Debug for project kmeans ****
+make all 
+make: Nothing to be done for 'all'.
+22:21:12 **** Auto Build of configuration Debug for project kmeans ****
+make all 
+Building file: ../src/kmeans.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/kmeans.o" -I../../kmeans_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/kmeans.d" -MT"src/kmeans.o" -o "src/kmeans.o" "../src/kmeans.c"
+../src/kmeans.c: In function 'read_dataset':
+../src/kmeans.c:90:31: warning: pointer targets in passing argument 4 of 'f_read' differ in signedness [-Wpointer-sign]
+  f_read(&file_in, buf, CHUNK, &n_read);
+                               ^
+In file included from ../src/kmeans.h:4:0,
+                 from ../src/kmeans.c:1:
+../../kmeans_bsp/microblaze_0/include/ff.h:223:9: note: expected 'UINT * {aka unsigned int *}' but argument is of type 'int *'
+ FRESULT f_read (FIL* fp, void* buff, UINT btr, UINT* br);   /* Read data from a file */
+         ^~~~~~
+../src/kmeans.c:120:35: warning: pointer targets in passing argument 4 of 'f_read' differ in signedness [-Wpointer-sign]
+      f_read(&file_in, buf, CHUNK, &n_read);
+                                   ^
+In file included from ../src/kmeans.h:4:0,
+                 from ../src/kmeans.c:1:
+../../kmeans_bsp/microblaze_0/include/ff.h:223:9: note: expected 'UINT * {aka unsigned int *}' but argument is of type 'int *'
+ FRESULT f_read (FIL* fp, void* buff, UINT btr, UINT* br);   /* Read data from a file */
+         ^~~~~~
+Finished building: ../src/kmeans.c
+ 
+Building target: kmeans.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../kmeans_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "kmeans.elf"  ./src/kmeans.o ./src/timer_c.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,-lxilffs,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: kmeans.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size kmeans.elf  |tee "kmeans.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 154316	   1532	   6000	 161848	  27838	kmeans.elf
+Finished building: kmeans.elf.size
+ 
+22:21:28 **** Incremental Build of configuration Debug for project kmeans ****
+make all 
+make: Nothing to be done for 'all'.
+22:22:09 **** Incremental Build of configuration Debug for project kmeans ****
+make all 
+make: Nothing to be done for 'all'.
+22:22:49 **** Auto Build of configuration Debug for project kmeans ****
+make all 
+Building file: ../src/kmeans.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/kmeans.o" -I../../kmeans_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/kmeans.d" -MT"src/kmeans.o" -o "src/kmeans.o" "../src/kmeans.c"
+../src/kmeans.c: In function 'read_dataset':
+../src/kmeans.c:90:31: warning: pointer targets in passing argument 4 of 'f_read' differ in signedness [-Wpointer-sign]
+  f_read(&file_in, buf, CHUNK, &n_read);
+                               ^
+In file included from ../src/kmeans.h:4:0,
+                 from ../src/kmeans.c:1:
+../../kmeans_bsp/microblaze_0/include/ff.h:223:9: note: expected 'UINT * {aka unsigned int *}' but argument is of type 'int *'
+ FRESULT f_read (FIL* fp, void* buff, UINT btr, UINT* br);   /* Read data from a file */
+         ^~~~~~
+../src/kmeans.c:120:35: warning: pointer targets in passing argument 4 of 'f_read' differ in signedness [-Wpointer-sign]
+      f_read(&file_in, buf, CHUNK, &n_read);
+                                   ^
+In file included from ../src/kmeans.h:4:0,
+                 from ../src/kmeans.c:1:
+../../kmeans_bsp/microblaze_0/include/ff.h:223:9: note: expected 'UINT * {aka unsigned int *}' but argument is of type 'int *'
+ FRESULT f_read (FIL* fp, void* buff, UINT btr, UINT* br);   /* Read data from a file */
+         ^~~~~~
+Finished building: ../src/kmeans.c
+ 
+Building target: kmeans.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../kmeans_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "kmeans.elf"  ./src/kmeans.o ./src/timer_c.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,-lxilffs,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: kmeans.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size kmeans.elf  |tee "kmeans.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 154448	   1532	  30116	 186096	  2d6f0	kmeans.elf
+Finished building: kmeans.elf.size
+ 
+22:22:59 **** Incremental Build of configuration Debug for project kmeans ****
+make all 
+make: Nothing to be done for 'all'.
+22:30:49 **** Incremental Build of configuration Debug for project kmeans ****
+make all 
+make: Nothing to be done for 'all'.

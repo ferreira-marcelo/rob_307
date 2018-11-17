@@ -1,0 +1,6 @@
+20:51:14 INFO  : Registering command handlers for SDK TCF services
+20:51:15 INFO  : Launching XSCT server: xsct -n -interactive /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/hardware_model/hardware_arm_only/hardware_arm_only.sdk/temp_xsdb_launch_script.tcl
+20:51:17 INFO  : XSCT server has started successfully.
+20:51:17 INFO  : Successfully done setting XSCT server connection channel  
+20:51:17 INFO  : Successfully done setting SDK workspace  
+20:51:17 INFO  : Processing command line option -hwspec /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/hardware_model/hardware_arm_only/hardware_arm_only.sdk/arm_timer_wrapper.hdf.

@@ -1,0 +1,25 @@
+#include "kmeans.h"
+
+static char *Log_File;
+static FATFS  FS_instance;
+static FIL file_in;
+
+float data_set[N_POINTS][N_FEATURES];
+int result[N_POINTS];
+float centroids[N_CLUSTER][N_FEATURES];
+
+int main()
+{
+    print("Hello \n");
+
+	TCHAR *Path = "0:/";
+	FRESULT  result;
+	result = f_mount(&FS_instance,Path, 0);
+	if (result != FR_OK) {
+		printf("Cannot mount sd\n");
+		return EXIT_FAILURE;
+	}
+	printf("sd card ok \n");
+
+    return 0;
+}

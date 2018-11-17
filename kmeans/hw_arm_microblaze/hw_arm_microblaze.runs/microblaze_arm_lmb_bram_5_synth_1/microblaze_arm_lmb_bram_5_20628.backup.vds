@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat Nov 17 18:21:17 2018
+# Process ID: 20628
+# Current directory: /home/fabian/Documents/ensta/deuxieme/rob307/rob_307/hardware_model/hw_arm_microblaze/hw_arm_microblaze.runs/microblaze_arm_lmb_bram_5_synth_1
+# Command line: vivado -log microblaze_arm_lmb_bram_5.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source microblaze_arm_lmb_bram_5.tcl
+# Log file: /home/fabian/Documents/ensta/deuxieme/rob307/rob_307/hardware_model/hw_arm_microblaze/hw_arm_microblaze.runs/microblaze_arm_lmb_bram_5_synth_1/microblaze_arm_lmb_bram_5.vds
+# Journal file: /home/fabian/Documents/ensta/deuxieme/rob307/rob_307/hardware_model/hw_arm_microblaze/hw_arm_microblaze.runs/microblaze_arm_lmb_bram_5_synth_1/vivado.jou
+#-----------------------------------------------------------
+source microblaze_arm_lmb_bram_5.tcl -notrace
+Command: synth_design -top microblaze_arm_lmb_bram_5 -part xc7z020clg484-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 20639 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:15 . Memory (MB): peak = 1291.801 ; gain = 81.719 ; free physical = 2174 ; free virtual = 3070
+---------------------------------------------------------------------------------

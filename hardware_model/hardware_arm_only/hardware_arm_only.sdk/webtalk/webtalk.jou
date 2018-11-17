@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# 
+# Start of session at: Sat Nov 17 20:52:21 2018
+# Process ID: 1104
+# Current directory: /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/hardware_model/hardware_arm_only/hardware_arm_only.sdk/webtalk
+# Command line: wbtcv -mode batch -source sdk_webtalk.tcl
+# Log file: /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/hardware_model/hardware_arm_only/hardware_arm_only.sdk/webtalk/webtalk.log
+# Journal file: /home/fabian/Documents/ensta/deuxieme/rob307/git_kmeans/hardware_model/hardware_arm_only/hardware_arm_only.sdk/webtalk/webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl
